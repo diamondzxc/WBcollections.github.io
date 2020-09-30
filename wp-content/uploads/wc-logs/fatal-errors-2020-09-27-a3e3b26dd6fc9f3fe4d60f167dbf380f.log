@@ -1,0 +1,21 @@
+2020-09-27T14:09:04+00:00 CRITICAL Uncaught Error: Class 'WP2Static\Controller' not found in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\wp2static-master\wp2static.php:24
+Stack trace:
+#0 C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-admin\includes\plugin.php(668): include_once()
+#1 C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-admin\plugins.php(58): activate_plugin('wp2static-maste...', 'http://localhos...', false)
+#2 {main}
+  thrown in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\wp2static-master\wp2static.php on line 24
+
+2020-09-27T14:09:07+00:00 CRITICAL Uncaught Error: Class 'WP2Static\Controller' not found in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\wp2static-master\wp2static.php:24
+Stack trace:
+#0 C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-admin\includes\plugin.php(2297): include()
+#1 C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-admin\plugins.php(191): plugin_sandbox_scrape('wp2static-maste...')
+#2 {main}
+  thrown in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\wp2static-master\wp2static.php on line 24
+
+2020-09-27T14:09:08+00:00 CRITICAL Uncaught Error: Class 'WP2Static\Controller' not found in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\wp2static-master\wp2static.php:24
+Stack trace:
+#0 C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-admin\includes\plugin.php(2297): include()
+#1 C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-admin\plugins.php(191): plugin_sandbox_scrape('wp2static-maste...')
+#2 {main}
+  thrown in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\wp2static-master\wp2static.php on line 24
+
