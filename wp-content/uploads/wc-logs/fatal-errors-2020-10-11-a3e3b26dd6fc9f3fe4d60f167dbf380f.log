@@ -6,3 +6,59 @@
 
 2020-10-11T09:06:05+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 28
 
+2020-10-11T17:19:00+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T17:19:29+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T17:19:56+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T17:20:15+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T17:25:46+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T17:27:01+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T17:27:30+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T17:31:36+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T17:46:55+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T17:47:23+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T17:47:40+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T17:48:24+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T17:48:54+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T17:57:30+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T17:57:36+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T17:58:06+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T17:58:24+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T17:59:03+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T18:02:45+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T18:03:22+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T18:04:38+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T18:05:02+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T18:05:22+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T18:08:56+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T18:11:46+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T18:12:07+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T18:12:21+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
+2020-10-11T19:01:25+00:00 CRITICAL Cannot declare class HFE\WidgetsManager\Widgets\Cart, because the name is already in use in C:\Users\Lenovo\Desktop\xampp\htdocs\FY\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\class-cart.php on line 651
+
