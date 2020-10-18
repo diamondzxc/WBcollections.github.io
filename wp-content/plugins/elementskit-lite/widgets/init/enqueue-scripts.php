@@ -40,8 +40,8 @@ class Enqueue_Scripts{
 
         $user_data = Attr::instance()->utils->get_option('user_data', []);
         $gmap_api_key = !empty($user_data['google_map']) ? $user_data['google_map']['api_key'] : '';
-        wp_enqueue_script( 'ekit-google-map-api', 'https://maps.googleapis.com/maps/api/js?key=' . $gmap_api_key . '', array('jquery'), false, true );
-        wp_enqueue_script( 'ekit-google-gmaps', \ElementsKit_Lite::widget_url() . 'init/assets/js/gmaps.min.js', array('jquery'), false, true );
+        wp_register_script( 'ekit-google-map-api', 'https://maps.googleapis.com/maps/api/js?key=' . $gmap_api_key . '', array('jquery'), false, true );
+        wp_register_script( 'ekit-google-gmaps', \ElementsKit_Lite::widget_url() . 'init/assets/js/gmaps.min.js', array('jquery'), false, true );
         
     }
     public function frontend_css() {

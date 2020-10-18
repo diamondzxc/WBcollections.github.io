@@ -162,8 +162,7 @@ class Skin_Zinest extends Elementor_Skin_Base {
 
                 <?php if ('yes' == $settings['show_title']) : ?>
               <div class="bdt-main-title">
-                <<?php echo esc_html($settings['title_html_tag']); ?> class="bdt-title-tag" bdt-slideshow-parallax="y:
-                80,0,-80; opacity: 1,1,0">
+                <<?php echo esc_html($settings['title_html_tag']); ?> class="bdt-title-tag" bdt-slideshow-parallax="y: 80,0,-80; opacity: 1,1,0">
 
                 <a href="<?php echo esc_url(get_permalink($post->ID)); ?>">
                     <?php echo prime_slider_first_word(get_the_title()); ?>

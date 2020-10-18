@@ -37,173 +37,236 @@ class ElementsKit_Widget_Image_Accordion extends Widget_Base {
                 'tab' => Controls_Manager::TAB_CONTENT,
             ]
         );
+            $repeater = new \Elementor\Repeater();
 
-        $this->add_control(
-            'ekit_img_accordion_items',
-            [
-                'label' => esc_html__('Accordion Items', 'elementskit-lite'),
-                'type' => Controls_Manager::REPEATER,
-                'separator' => 'before',
-                'default' => [
-                    [ 'ekit_img_accordion_title' => esc_html__('This is title','elementskit-lite') ],
-                    [ 'ekit_img_accordion_icon' => esc_attr('icon icon-minus') ],
-                    [ 'ekit_img_accordion_link' => esc_url('#') ],
-                    [ 'ekit_img_accordion_button_label' => esc_html__('Read More','elementskit-lite') ],
-                ],
-                'fields' => [
+            $repeater->add_control(
+                'ekit_img_accordion_active',
+                [
+                    'label'     => esc_html__('Active ? ', 'elementskit-lite'),
+                    'type'      => Controls_Manager::SWITCHER,
+                    'default'   => 'no',
+                    'label_on'  => esc_html__( 'Yes', 'elementskit-lite' ),
+                    'label_off' => esc_html__( 'No', 'elementskit-lite' ),
+                ]
+            );
 
-                    [
-                        'name' => 'ekit_img_accordion_active',
-                        'label' => esc_html__('Active ? ', 'elementskit-lite'),
-                        'type' => Controls_Manager::SWITCHER,
-                        'default' => 'no',
-                        'label_on' =>esc_html__( 'Yes', 'elementskit-lite' ),
-                        'label_off' =>esc_html__( 'No', 'elementskit-lite' ),
+            $repeater->add_control(
+                'ekit_img_accordion_bg',
+                [
+                    'label'     => esc_html__( 'Background Image', 'elementskit-lite' ),
+                    'type'      => Controls_Manager::MEDIA,
+                    'default'   => [
+                        'url' => Utils::get_placeholder_image_src(),
                     ],
-                    [
-                        'name' => 'ekit_img_accordion_bg',
-                        'label' => esc_html__( 'Background Image', 'elementskit-lite' ),
-                        'type' => Controls_Manager::MEDIA,
+                ]
+            );
 
-                        'default' => [
-                            'url' => Utils::get_placeholder_image_src(),
-                        ],
-                    ],
-                    [
-                        'name' => 'ekit_img_accordion_title',
-                        'label' => esc_html__('Title', 'elementskit-lite'),
-                        'type' => Controls_Manager::TEXT,
-                        'label_block' => true,
+            $repeater->add_control(
+                'ekit_img_accordion_title',
+                [
+                    'label'         => esc_html__('Title', 'elementskit-lite'),
+                    'type'          => Controls_Manager::TEXT,
+                    'label_block'   => true,
+                    'default'       => esc_html__('Image accordion Title'),
+                ]
+            );
 
-                        'default' => esc_html__('Image accordion Title'),
-                    ],
-                    [   'name' => 'ekit_img_accordion_enable_icon',
-                        'label' => esc_html__( 'Enable Icon', 'elementskit-lite' ),
-                        'type' => Controls_Manager::SWITCHER,
-                        'label_on' => esc_html__( 'Yes', 'elementskit-lite' ),
-                        'label_off' => esc_html__( 'No', 'elementskit-lite' ),
-                        'return_value' => 'yes',
-                        'default' => '',
-                    ],
-                    [
-                        'name' => 'ekit_img_accordion_title_icons',
-                        'label' => esc_html__('Icon for title', 'elementskit-lite'),
-                        'type' => Controls_Manager::ICONS,
-                        'fa4compatibility' => 'ekit_img_accordion_title_icon',
-                        'default' => [
-                            'value' => '',
-                        ],
-                        'condition' => [
-                            'ekit_img_accordion_enable_icon' => 'yes',
-                        ]
-                    ],
-                    [
-                        'name' => 'ekit_img_accordion_title_icon_position',
-                        'label' =>esc_html__( 'Icon Position', 'elementskit-lite' ),
-                        'type' => Controls_Manager::SELECT,
-                        'default' => 'left',
-                        'options' => [
-                            'left' =>esc_html__( 'Before', 'elementskit-lite' ),
-                            'right' =>esc_html__( 'After', 'elementskit-lite' ),
-                        ],
-                        'condition' => [
-                            'ekit_img_accordion_title_icons!' => '',
-                            'ekit_img_accordion_enable_icon' => 'yes',
-                        ],
-                    ],
+            $repeater->add_control(
+                'ekit_img_accordion_enable_icon',
+                [
+                    'label'         => esc_html__( 'Enable Icon', 'elementskit-lite' ),
+                    'type'          => Controls_Manager::SWITCHER,
+                    'label_on'      => esc_html__( 'Yes', 'elementskit-lite' ),
+                    'label_off'     => esc_html__( 'No', 'elementskit-lite' ),
+                    'return_value'  => 'yes',
+                    'default'       => '',
+                ]
+            );
 
-                    [   'name' => 'ekit_img_accordion_enable_button',
-                        'label' => esc_html__( 'Enable Button', 'elementskit-lite' ),
-                        'type' => Controls_Manager::SWITCHER,
-                        'label_on' => esc_html__( 'Yes', 'elementskit-lite' ),
-                        'label_off' => esc_html__( 'No', 'elementskit-lite' ),
-                        'return_value' => 'yes',
-                        'default' => 'yes',
+            $repeater->add_control(
+                'ekit_img_accordion_title_icons',
+                [
+                    'label'             => esc_html__('Icon for title', 'elementskit-lite'),
+                    'type'              => Controls_Manager::ICONS,
+                    'fa4compatibility'  => 'ekit_img_accordion_title_icon',
+                    'default'           => [
+                        'value' => '',
                     ],
+                    'condition'         => [
+                        'ekit_img_accordion_enable_icon' => 'yes',
+                    ]
+                ]
+            );
 
-                    [
-                        'name' => 'ekit_img_accordion_button_label',
-                        'label' => esc_html__('Button Label', 'elementskit-lite'),
-                        'type' => Controls_Manager::TEXT,
-                        'label_block' => true,
-                        'default' => esc_html__('Read More','elementskit-lite'),
-                        'condition' => [
-                            'ekit_img_accordion_enable_button' => 'yes',
-                        ]
+            $repeater->add_control(
+                'ekit_img_accordion_title_icon_position',
+                [
+                    'label'     => esc_html__( 'Icon Position', 'elementskit-lite' ),
+                    'type'      => Controls_Manager::SELECT,
+                    'default'   => 'left',
+                    'options'   => [
+                        'left'      => esc_html__( 'Before', 'elementskit-lite' ),
+                        'right'     => esc_html__( 'After', 'elementskit-lite' ),
                     ],
-                    [
-                        'name' => 'ekit_img_accordion_button_url',
-                        'label' => esc_html__('Button URL', 'elementskit-lite'),
-                        'type' => Controls_Manager::URL,
-                        'condition' => [
-                            'ekit_img_accordion_enable_button' => 'yes',
-                        ]
+                    'condition' => [
+                        'ekit_img_accordion_title_icons!' => '',
+                        'ekit_img_accordion_enable_icon' => 'yes',
                     ],
-                    [   'name' => 'ekit_img_accordion_enable_pupup',
-                        'label' => esc_html__( 'Enable Popup', 'elementskit-lite' ),
-                        'type' => Controls_Manager::SWITCHER,
-                        'label_on' => esc_html__( 'Yes', 'elementskit-lite' ),
-                        'label_off' => esc_html__( 'No', 'elementskit-lite' ),
-                        'return_value' => 'yes',
-                        'default' => '',
-                    ],
+                ]
+            );
 
-                    [
-                        'name' => 'ekit_img_accordion_pup_up_icons',
-                        'label' => esc_html__('Pupup Icon', 'elementskit-lite'),
-                        'type' => Controls_Manager::ICONS,
-                        'fa4compatibility' => 'ekit_img_accordion_pup_up_icon',
-                        'default' => [
-                            'value' => 'icon icon-plus',
-                            'library'   => 'ekiticons'
-                        ],
-                        'label_block' => true,
-                        'condition' => [
-                            'ekit_img_accordion_enable_pupup' => 'yes'
-                        ]
-                    ],
-                    [   'name' => 'ekit_img_accordion_enable_project_link',
-                        'label' => esc_html__( 'Enable Project Link', 'elementskit-lite' ),
-                        'type' => Controls_Manager::SWITCHER,
-                        'label_on' => esc_html__( 'Yes', 'elementskit-lite' ),
-                        'label_off' => esc_html__( 'No', 'elementskit-lite' ),
-                        'return_value' => 'yes',
-                        'default' => '',
-                    ],
-                    [
-                        'name' => 'ekit_img_accordion_project_link',
-                        'label' => esc_html__( 'Project Link', 'elementskit-lite' ),
-                        'type' => Controls_Manager::URL,
-                        'placeholder' => esc_html__( 'https://your-link.com', 'elementskit-lite' ),
-                        'show_external' => true,
-                        'default' => [
-                            'url' => '',
-                        ],
-                        'condition' => [
-                            'ekit_img_accordion_enable_project_link' => 'yes'
-                        ]
-                    ],
+            $repeater->add_control(
+                'ekit_img_accordion_enable_button',
+                [
+                    'label'         => esc_html__( 'Enable Button', 'elementskit-lite' ),
+                    'type'          => Controls_Manager::SWITCHER,
+                    'label_on'      => esc_html__( 'Yes', 'elementskit-lite' ),
+                    'label_off'     => esc_html__( 'No', 'elementskit-lite' ),
+                    'return_value'  => 'yes',
+                    'default'       => 'yes',
+                    'separator'     => 'before',
+                ]
+            );
 
-                    [
-                        'name' => 'ekit_img_accordion_project_link_icons',
-                        'label' => esc_html__('Project Link Icon', 'elementskit-lite'),
-                        'type' => Controls_Manager::ICONS,
-                        'fa4compatibility' => 'ekit_img_accordion_project_link_icon',
-                        'default' => [
-                            'value' => 'icon icon icon-link',
-                            'library'   => 'ekiticons'
-                        ],
-                        'label_block' => true,
-                        'condition' => [
-                            'ekit_img_accordion_enable_project_link' => 'yes'
-                        ]
+            $repeater->add_control(
+                'ekit_img_accordion_button_label',
+                [
+                    'label'         => esc_html__('Button Label', 'elementskit-lite'),
+                    'type'          => Controls_Manager::TEXT,
+                    'label_block'   => true,
+                    'default'       => esc_html__('Read More','elementskit-lite'),
+                    'condition'     => [
+                        'ekit_img_accordion_enable_button' => 'yes',
                     ],
-                ],
-                'title_field' => '{{ ekit_img_accordion_title }}',
-            ]
-        );
+                ]
+            );
 
+            $repeater->add_control(
+                'ekit_img_accordion_button_url',
+                [
+                    'label'     => esc_html__('Button URL', 'elementskit-lite'),
+                    'type'      => Controls_Manager::URL,
+                    'condition' => [
+                        'ekit_img_accordion_enable_button' => 'yes',
+                    ],
+                ]
+            );
 
+            $repeater->add_control(
+                'ekit_img_accordion_enable_pupup',
+                [
+                    'label'         => esc_html__( 'Enable Popup', 'elementskit-lite' ),
+                    'type'          => Controls_Manager::SWITCHER,
+                    'label_on'      => esc_html__( 'Yes', 'elementskit-lite' ),
+                    'label_off'     => esc_html__( 'No', 'elementskit-lite' ),
+                    'return_value'  => 'yes',
+                    'default'       => '',
+                    'separator'     => 'before',
+                ]
+            );
+
+            $repeater->add_control(
+                'ekit_img_accordion_pup_up_icons',
+                [
+                    'label'             => esc_html__('Pupup Icon', 'elementskit-lite'),
+                    'type'              => Controls_Manager::ICONS,
+                    'fa4compatibility'  => 'ekit_img_accordion_pup_up_icon',
+                    'default'           => [
+                        'value'     => 'icon icon-plus',
+                        'library'   => 'ekiticons'
+                    ],
+                    'label_block'       => true,
+                    'condition'         => [
+                        'ekit_img_accordion_enable_pupup' => 'yes'
+                    ]
+                ]
+            );
+
+            $repeater->add_control(
+                'ekit_img_accordion_enable_project_link',
+                [
+                    'label'         => esc_html__( 'Enable Project Link', 'elementskit-lite' ),
+                    'type'          => Controls_Manager::SWITCHER,
+                    'label_on'      => esc_html__( 'Yes', 'elementskit-lite' ),
+                    'label_off'     => esc_html__( 'No', 'elementskit-lite' ),
+                    'return_value'  => 'yes',
+                    'separator'     => 'before',
+                ]
+            );
+
+            $repeater->add_control(
+                'ekit_img_accordion_project_link',
+                [
+                    'label'         => esc_html__( 'Project Link', 'elementskit-lite' ),
+                    'type'          => Controls_Manager::URL,
+                    'placeholder'   => esc_html__( 'https://your-link.com', 'elementskit-lite' ),
+                    'condition'     => [
+                        'ekit_img_accordion_enable_project_link' => 'yes'
+                    ],
+                ]
+            );
+
+            $repeater->add_control(
+                'ekit_img_accordion_project_link_icons',
+                [
+                    'label'             => esc_html__('Project Link Icon', 'elementskit-lite'),
+                    'type'              => Controls_Manager::ICONS,
+                    'fa4compatibility'  => 'ekit_img_accordion_project_link_icon',
+                    'default'           => [
+                        'value' => 'icon icon icon-link',
+                        'library'   => 'ekiticons'
+                    ],
+                    'label_block'       => true,
+                    'condition'         => [
+                        'ekit_img_accordion_enable_project_link' => 'yes'
+                    ],
+                ]
+            );
+
+            $this->add_control(
+                'ekit_img_accordion_items',
+                [
+                    'label' => esc_html__('Accordion Items', 'elementskit-lite'),
+                    'type' => Controls_Manager::REPEATER,
+                    'default' => [
+                        [ 'ekit_img_accordion_title' => esc_html__('This is title','elementskit-lite') ],
+                        [ 'ekit_img_accordion_icon' => esc_attr('icon icon-minus') ],
+                        [ 'ekit_img_accordion_link' => esc_url('#') ],
+                        [ 'ekit_img_accordion_button_label' => esc_html__('Read More','elementskit-lite') ],
+                    ],
+                    'fields' => $repeater->get_controls(),
+                    'title_field' => '{{ ekit_img_accordion_title }}',
+                ]
+            );
+
+            $this->add_responsive_control(
+                'items_style',
+                [
+                    'label'         => esc_html__('Style', 'elementskit-lite'),
+                    'type'          => Controls_Manager::SELECT,
+                    'options'       => [
+                        ''              => esc_html__('Default', 'elementskit-lite'),
+                        'horizontal'    => esc_html__('Horizontal', 'elementskit-lite'),
+                        'vertical'      => esc_html__('Vertical', 'elementskit-lite'),
+                    ],
+                    'default'       => 'horizontal',
+                    'prefix_class'  => 'ekit-image-accordion%s-',
+                ]
+            );
+
+            $this->add_control(
+                'active_behavior',
+                [
+                    'label'         => esc_html__('Active Behaivor', 'elementskit-lite'),
+                    'type'          => Controls_Manager::SELECT,
+                    'options'       => [
+                        'click' => esc_html__('Click', 'elementskit-lite'),
+                        'hover' => esc_html__('Hover', 'elementskit-lite'),
+                    ],
+                    'default'       => 'click',
+                    'prefix_class'  => 'ekit-image-accordion-',
+                ]
+            );
         $this->end_controls_section();
 
         /** Tab Style (Image accordion General Style) */
@@ -230,10 +293,11 @@ class ElementsKit_Widget_Image_Accordion extends Widget_Base {
             ],
             'default' => [
                 'unit' => 'px',
-                'size' => 466,
+                'size' => 460,
             ],
             'selectors' => [
-                '{{WRAPPER}} .elementskit-image-accordion-wraper .elementskit-single-image-accordion' => 'min-height: {{SIZE}}{{UNIT}};',
+                '{{WRAPPER}} .elementskit-single-image-accordion' => 'min-height: {{SIZE}}{{UNIT}};',
+                '{{WRAPPER}} .elementskit-image-accordion-wraper' => 'height: {{SIZE}}{{UNIT}};',
             ],
         ]
     );
@@ -249,9 +313,10 @@ class ElementsKit_Widget_Image_Accordion extends Widget_Base {
                 'min' => 0,
                 'max' => 100,
             ],
-        ],
+          ],
           'selectors' => [
               '{{WRAPPER}} .elementskit-image-accordion-wraper .elementskit-single-image-accordion' => 'margin-left: {{SIZE}}{{UNIT}}; margin-right: {{SIZE}}{{UNIT}};',
+              '{{WRAPPER}} .elementskit-image-accordion-wraper' => 'margin-left: -{{SIZE}}{{UNIT}}; margin-right: -{{SIZE}}{{UNIT}};',
           ],
         ]
       );
@@ -269,7 +334,7 @@ class ElementsKit_Widget_Image_Accordion extends Widget_Base {
             array(
                 'name'     => 'ekit_img_accordion_bg_active_color',
                 'default' => '',
-                'selector' => '{{WRAPPER}} .elementskit-image-accordion-wraper input:checked + .elementskit-single-image-accordion:before',
+                'selector' => '{{WRAPPER}} .elementskit-single-image-accordion:before',
 
 			)
         );
@@ -311,9 +376,6 @@ class ElementsKit_Widget_Image_Accordion extends Widget_Base {
         [
           'label' => esc_html__( 'Border Radius', 'elementskit-lite' ),
           'type' => Controls_Manager::SLIDER,
-          'default' => [
-            'size' => 4,
-          ],
           'range' => [
             'px' => [
               'max' => 500,
@@ -725,7 +787,7 @@ class ElementsKit_Widget_Image_Accordion extends Widget_Base {
         $this->add_control(
             'ekit_img_accordion_pup_up_icon_color',
             [
-                'label' => esc_html__( 'Popup Icon color', 'elementskit-lite' ),
+                'label' => esc_html__( 'Popup Icon Color', 'elementskit-lite' ),
                 'type' => Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} .elementskit-icon-wraper a:first-child' => 'color: {{VALUE}};',
@@ -737,7 +799,7 @@ class ElementsKit_Widget_Image_Accordion extends Widget_Base {
         $this->add_control(
             'ekit_img_accordion_pup_up_project_color',
             [
-                'label' => esc_html__( 'Link Icon color', 'elementskit-lite' ),
+                'label' => esc_html__( 'Link Icon Color', 'elementskit-lite' ),
                 'type' => Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} .elementskit-icon-wraper a:last-child' => 'color: {{VALUE}};',
@@ -745,6 +807,17 @@ class ElementsKit_Widget_Image_Accordion extends Widget_Base {
                 ],
             ]
         );
+
+            $this->add_control(
+                'action_btn_bg',
+                [
+                    'label'     => esc_html__( 'Background Color', 'elementskit-lite' ),
+                    'type'      => Controls_Manager::COLOR,
+                    'selectors' => [
+                        '{{WRAPPER}} .ekit-image-accordion-actions > a' => 'background-color: {{VALUE}}; border-color: {{VALUE}};',
+                    ],
+                ]
+            );
 
         $this->end_controls_tab();
 
@@ -779,6 +852,17 @@ class ElementsKit_Widget_Image_Accordion extends Widget_Base {
             ]
         );
 
+            $this->add_control(
+                'action_btn_bg_hover',
+                [
+                    'label'     => esc_html__( 'Background Color (Hover)', 'elementskit-lite' ),
+                    'type'      => Controls_Manager::COLOR,
+                    'selectors' => [
+                        '{{WRAPPER}} .ekit-image-accordion-actions > a:hover' => 'background-color: {{VALUE}}; border-color: {{VALUE}};',
+                    ],
+                ]
+            );
+
         $this->end_controls_tab();
 
         $this->end_controls_tabs();
@@ -797,12 +881,12 @@ class ElementsKit_Widget_Image_Accordion extends Widget_Base {
 
     protected function render_raw( ) {
         $settings = $this->get_settings_for_display();
-        extract($settings); ?>
-
-        <div class="elementskit-image-accordion-wraper">
+        extract($settings);
+        ?>
+        <div class="elementskit-image-accordion-wraper ekit-image-accordion">
             <?php foreach ( $ekit_img_accordion_items as $key => $item ) : ?>
             <input type="radio" name="ekit_ia_<?php echo $this->get_id(); ?>" id="ekit_ia_<?php echo $this->get_id() .'_'. $key; ?>" class="elementskit-single-image-accordion--input" <?php echo \ElementsKit_Lite\Utils::render(($item['ekit_img_accordion_active'] == 'yes') ? 'checked' : '') ; ?> hidden>
-            <label for="ekit_ia_<?php echo $this->get_id() .'_'. $key; ?>" class="elementskit-single-image-accordion" style="background-image: url(<?php echo esc_url($item['ekit_img_accordion_bg']['url']); ?>)">
+            <label for="ekit_ia_<?php echo $this->get_id() .'_'. $key; ?>" class="elementskit-single-image-accordion ekit-image-accordion-item" style="background-image: url(<?php echo esc_url($item['ekit_img_accordion_bg']['url']); ?>)">
                 <span class="elementskit-accordion-content">
                    <?php if($item['ekit_img_accordion_enable_pupup'] == 'yes' || $item['ekit_img_accordion_enable_project_link'] == 'yes') {
 
@@ -821,9 +905,9 @@ class ElementsKit_Widget_Image_Accordion extends Widget_Base {
                        }
 
                        ?>
-                    <span class="elementskit-icon-wraper">
+                    <span class="elementskit-icon-wraper ekit-image-accordion-actions">
                        <?php if($item['ekit_img_accordion_enable_pupup'] == 'yes') { ?>
-                            <a href="<?php echo esc_url($item['ekit_img_accordion_bg']['url']); ?>" class="icon-outline circle" data-effect="mfp-zoom-out">
+                            <a href="<?php echo esc_url($item['ekit_img_accordion_bg']['url']); ?>" class="icon-outline circle" data-elementor-open-lightbox="yes">
                             <?php
 
                                 $migrated = isset( $item['__fa4_migrated']['ekit_img_accordion_pup_up_icons'] );
@@ -842,7 +926,6 @@ class ElementsKit_Widget_Image_Accordion extends Widget_Base {
                             </a>
                        <?php } ?>
                        <?php if($item['ekit_img_accordion_enable_project_link'] == 'yes') {
-
                             if ( ! empty( $item['ekit_img_accordion_project_link']['url'] ) ) {
                                 $this->add_link_attributes( 'button-2' . $key, $item['ekit_img_accordion_project_link'] );
                             }
@@ -927,10 +1010,8 @@ class ElementsKit_Widget_Image_Accordion extends Widget_Base {
                     <?php endif; ?>
                 </span>
             </label>
-
             <?php endforeach; ?>
         </div>
-
-    <?php }
-    protected function _content_template() { }
+    <?php
+    }
 }

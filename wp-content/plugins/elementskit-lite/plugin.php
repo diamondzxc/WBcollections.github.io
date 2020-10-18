@@ -58,14 +58,14 @@ class Plugin{
         Compatibility\Conflicts\Init::instance();
 
         // Register data migration class
-         Compatibility\Data_Migration\Translate_File::instance()->init();
-         Libs\Xs_Migration\Initiator::instance()->init();
+         //Compatibility\Data_Migration\Translate_File::instance()->init();
+         //Libs\Xs_Migration\Initiator::instance()->init();
 
         add_action('wp_head', [$this, 'add_meta_for_search_excluded']);
 
         // Add banner class
         add_action('admin_notices', function(){
-            include \ElementsKit::lib_dir() . 'banner/init.php';
+            include \ElementsKit_Lite::lib_dir() . 'banner/init.php';
             // \WpMet_Banner::run();
         });
 
@@ -73,6 +73,50 @@ class Plugin{
         if(\ElementsKit_Lite::package_type() == 'free'){
             new Libs\Pro_Label\Init();
         }
+
+        // Asking rating service
+//        require_once 'libs/rating/rating.php';
+//        (new \Wpmet\Rating\Rating())
+//            ->plugin_name('elementskit')
+//            ->first_appear_day(7)
+//            ->condition($this->should_show_rating_notice())
+//            ->rating_url('https://wordpress.org/plugins/elementskit-lite/')
+//            ->init();
+
+    }
+
+    /**
+     * Check the admin screen and show the rating notice if eligible
+     *
+     * @access private
+     * @return boolean
+     */
+    private function should_show_rating_notice() {
+
+        if(\ElementsKit_Lite::package_type() == 'free'){
+            return true;
+        }
+
+        if( !function_exists('get_current_screen') ) {
+            return false;
+        }
+
+        $current_screen = (get_current_screen())->base;
+        $current_post_type = (get_current_screen())->post_type;
+        $eligible_post_type = ['elementskit_template'];
+        $eligible_screens = ['plugins', 'dashboard', 'elementskit', 'themes'];
+
+        if (in_array($current_post_type, $eligible_post_type)){
+            return true;
+        }
+
+
+        if (in_array($current_screen, $eligible_screens)){
+            return true;
+        }
+
+
+        return false;
     }
 
     /**
@@ -84,7 +128,7 @@ class Plugin{
      * @access public
      */
     public function enqueue_frontend(){
-        wp_enqueue_style( 'elementskit-font-css-admin', \ElementsKit_Lite::module_url() . 'controls/assets/css/ekiticons.css', \ElementsKit_Lite::version() );
+        wp_enqueue_style( 'elementor-icons-ekiticons', \ElementsKit_Lite::module_url() . 'controls/assets/css/ekiticons.css', \ElementsKit_Lite::version() );
         wp_enqueue_script( 'elementskit-framework-js-frontend', \ElementsKit_Lite::lib_url() . 'framework/assets/js/frontend-script.js', ['jquery'], \ElementsKit_Lite::version(), true );
     }
 

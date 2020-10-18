@@ -1,4 +1,12 @@
-## 1.10.1 [Work In Progress]
+## 1.10.2 [11th October 2020]
+
+### Fixed
+
+- Ratio issue fixed in Blog skin Coral, Folio, Zinest Widget (Thanks Vinceszy)
+- Title Link color issue fixed in Isolate Widget (Thanks Zydar Cheong)
+- Offcanvas style issue fixed in General Crelly Widget (Thanks jho jho)
+
+## 1.10.1 [18th September 2020]
 
 ### Added
 

@@ -1,9 +1,9 @@
 === Elements kit Elementor addons (Header & Footer Builder, Mega Menu Builder, Layout Library) ===
-Contributors: Ataurr, wpmet, emrnco, pobonpaul1994, easin55474, khalidjubair
+Contributors: Ataurr, wpmet, emranio, pobonpaul1994, easin55474, khalidjubair, enamulhoquemohon
 Tags: elementor addons, mega menu, header footer builder, elements, elementor extensions, elementor modules, page builder addons, elementor addon, elementor widget, addons
 Requires at least: 5.0
 Tested up to: 5.5
-Stable tag: 2.0.6
+Stable tag: 2.0.9.1
 Requires PHP: 7.0
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -12,12 +12,14 @@ ElementsKit All in one addon for Elementor page builder. It includes most compre
 
 == Description ==
 
+### **ATTENTION:** ElementsKit  2.0 Out with huge code optimisation and speed optimization. If you faced any issue please contact our team    [from here](https://help.wpmet.com/)  ###
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ECFC0QregXg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-ElementsKit is an ultimate All in one addon for Elementor Page Builder. It includes most comprehensive modules, such as Header Footer Builder, Mega Menu Builder Layoutkit etc under the one hood. It has 55+ custom widgets to create any sites with ease. It has some most unique and powerful custom controls for Elementor, such as Image Picker, Ajax Select2, Advanced Widget and many more. Why do you need multiple plugins? Where everything under the one hood?
+ElementsKit is an ultimate All in one addons for Elementor Page Builder. It includes most comprehensive modules, such as Header Footer Builder, Mega Menu Builder Layoutkit etc under the one hood. It has 55+ custom widgets to create any sites with ease. It has some most unique and powerful custom controls for Elementor, such as Image Picker, Ajax Select2, Advanced Widget and many more. Why do you need multiple plugins? Where everything under the one hood?
 
 
-**Elements kit** Elementor Addon have Exclusive features that blow your mind. Like our Mega Menu Builder, Header and Footer Builder layout library, One Page Scroll, Sticky Content, Parallax Effects, you will get tons of Premium features that you have never imagined.
+**Elements kit** Elementor Addon has Exclusive features that blow your mind. Like our Mega Menu Builder, Header and Footer Builder layout library, One Page Scroll, Sticky Content, Parallax Effects, you will get tons of Premium features that you have never imagined.
 
 
 [ **Check our Live Demos** ](http://go.wpmet.com/ekitpro)
@@ -51,168 +53,287 @@ ElementsKit is an ultimate All in one addon for Elementor Page Builder. It inclu
 
 == Layoutkit library ==
 
-With ElementsKit we have Layout library features where over 7+ ready-made home available and 300+ ready-made section available. Just click the layout icon and insert it into your site, it's so easy to use without any hassle like import JSON.  You will get a complete native feel when you use this.
+With ElementsKit we have Layout library features where over 7+ ready-made homepage available and 300+ ready-made sections available. Just click the layout icon and insert it into your site, it's so easy to use without any hassle like importing JSON.  You will get a complete native feel when you use this.
 
 == 250+ Ready blocks ==
-Elements Kit All in one elementor addon comes with 250+ readymade blocks.  Make any website on the fly with readymade blocks from the Exclusive layout kit library. You don't need to create from scratch just input the design from layout kit library and modify according to your need that’s it. Your site now ready to launch.
+Elements Kit All in one elementor addon comes with 250+ readymade blocks.  Make any website on the fly with readymade blocks from the Exclusive layout kit library. You don't need to create from scratch just input the design from the layout kit library and modify according to your need that’s it. Your site is now ready to launch.
 
 == Modular based and Lightweight  ==
-Elements Kit build optimization in mind. We develop our plugin Modular based so if you don't need any addons or shortcode. You can enable/disable specific elements from  Elements Kit option panel to prevent overloading your website with Extra  CSS or JS code you will not use which helps your website have a blazing fast performance.
+Elements Kit build optimization in mind. We develop our plugin Modular based so if you don't need any addons. You can enable/disable specific elements from the Elements Kit option panel to prevent overloading your website with Extra  CSS or JS code you will not use which helps your website have a blazing fast performance.
 
 == Completely Customizable  ==
-Every elementor widgets have Huge customizable options to control any widgets modify according to your needs.  You can build any style you want with our plugin.
+Every elementor widgets have Huge customizable options to control any widgets according to your needs.  You can build any style you want with our plugin.
 
 == 40+ FREE WIDGETS AND COUNTING ==
 
-We have over 40+ elementor widgets with our free plugin. And Every elementor widget Build with care. We can say that this elementor widget pack is best in town with design as well controls and features You will be really amazed to use the free version that will give you exactly the premium feeling.
+We have over 40+ elementor widgets with our free plugin. And Every Elementor widget and  Build with care. We can say that this Elementor widget pack is best in town with design as well controls and features You will be really amazed to use the free version that will give you exactly the premium feeling.
 
-1.  [ **Heading Title** ](https://wpmet.com/plugin/elementskit/heading/) -  An attractive heading title is a very important element of any webpage. Like our other elementor addon the heading title addon comes with a different feature where you can use multiple predefined style with heading title, heading subtitles, heading description with separator.There are different types of custom options to change the style,color, border, background, positioning, motion style and lots of interesting features on the fly at your own choice.  [ **Check out our video screencast** ](https://www.youtube.com/watch?v=WKscAke68wE&list=PL3t2OjZ6gY8MVnyA4OLB6qXb77-roJOuY&index=15)
+1. [ **Heading Title** ](https://wpmet.com/plugin/elementskit/heading/) -  Our Heading title Elementor widget enables you to adorn your headlines. This Elementor addon comes up with multiple fancy, and custom styles with Heading Title, Heading subtitles, Heading description with Separator. 
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=7-YiyyxTwRs&list=PL3t2OjZ6gY8MVnyA4OLB6qXb77-roJOuY&index=73)
+Our Elementor Heading title addon offers lots of styles including: Elementor heading title with background color text style, elementor heading title with background image style, wordpress heading title with gradient sub-title style, elementor heading with blue focused title, elementor headline title with top subtitle, elementor heading title with separator style.
 
-2. [ **Button** ](https://wpmet.com/plugin/elementskit/button/) - Most effective button widget for website interaction design which inspires users to take action. Create and customize your own button with text,color,hover effects,motion effects and other features  by using our elementor button in just a few clicks.  [ **Check out our video screencast** ](https://www.youtube.com/watch?v=Gcx9uP-7pao&list=PL3t2OjZ6gY8MVnyA4OLB6qXb77-roJOuY&index=18)
+2. [ **Button** ](https://wpmet.com/plugin/elementskit/button/) - Our Button Widget for Elementor page builder helps you to create amazing elementor buttons with text, color, hover effects and other effects. This elementor button addon will also enable you to create call to action buttons.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=Gcx9uP-7pao&list=PL3t2OjZ6gY8MVnyA4OLB6qXb77-roJOuY&index=18)
+Our Elementor button widget offers lots of styles including: Elementor rounded button with icon style, elementor box shaped link button with icon, elementor dropdown cta button with icon, wordpress button woocommerce buttons style, elementor addons call to action button in video icon style, elementor fancy add to cart button gradient click through style.
 
-3. [ **Team Menber** ](https://wpmet.com/plugin/elementskit/team/) - Use an ideal widget to show the awesome team members who are responsible for making the organization to a new level and to publish their names, positions,thoughts, pictures and social media links.Show your awe-inspiring team member by using our perfect elementor widget in a very easy way. [ **Check out our video screencast** ](https://www.youtube.com/watch?v=CkVzFt27wxs&list=PL3t2OjZ6gY8MVnyA4OLB6qXb77-roJOuY&index=39)
+3. [ **Team Member** ](https://wpmet.com/plugin/elementskit/team/) - Our team member Elementor widget allows you to showcase your team members with their name, position, bio, pictures, and social media links. Using the team member elementor page builder addon, you can customize the team member section as per your need.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=CkVzFt27wxs&list=PL3t2OjZ6gY8MVnyA4OLB6qXb77-roJOuY&index=39)
+Our team member addon for Elementor offers: Full width team member carousel slider style, team members slider full image & details with hover style, elementor team members in corporate staff style, wordpress team members in grid style, wp team member with round image & shadow box style, team member with long height image, team member with gradient hover effects style.
 
-4. [ **Accordion** ](https://wpmet.com/plugin/elementskit/accordion/) - Make your important content readable to the user with accordion elementor widget on your pages without scrolling down. By using accordion widget in your pages, posts, template files, and anywhere on your site, the length of the page can be shorthand.Features your content by using our elementor widget make it more readable with more attractive custom color,icon,style and motion effects.
+4. [ **Accordion** ](https://wpmet.com/plugin/elementskit/accordion/) - Display your texts in a foldable and concise way using Accordion FAQ Elementor Widget on your Elementor pages. By using Elementor Accordion Addon in your pages, posts or anywhere on your site, the length of the page can be shorthand with custom options in color, icon, style, and motion effects.
+ [ **Check out our video screencast**](https://www.youtube.com/watch?v=omOe7iThK48&feature=youtu.be)
+Our accordion widget offers lots of styles like: Solid color accordion style, gradient color faq accordions style, elementor accordion block style, box shadow accordion style, simple accordion faq style, accordions in tabs style, wp service box accordion style, collapsible content accordion, wordpress accordion in info box style, elementor floating point accordion style, accordions in info box style.
 
-5. [ **Tab** ](https://wpmet.com/plugin/elementskit/tab/) - This widget will help you to create content in tab format for your website.In just a few clicks you can customize your own tab like choose color,reorder,display both vertical and horizontal tabs style and many more advanced features by using our elementor widget.
+5. [ **Tab** ](https://wpmet.com/plugin/elementskit/tab/) - Tab Widget for Elementor page builder will enable you to show your texts divided into horizontal or vertical tabs with the title. You can customize your tabs as per your requirement using our Elementor tab addon.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=1TtJ3bzs954&feature=youtu.be)
+Our Tab addon for Elementor page builder offers lots of styles like: General content tabs line style, tabs with fill color box style, elementor full grid tab with icon text, elementor vertical gradient tab style, wordpress animated tab style, wp collapsible accordion tab style, elementor faq tab style, woocommerce product tabs style, fill body content tab box style.
 
-6. [ **Social Media** ](https://wpmet.com/plugin/elementskit/social-media/) - Are you looking for the best widget to show social media information to your sites so that the visitor can connect with you,like and follow your profiles? Here we have our best solution for this.Establish your own customizable social media info through our social icon widget with different shapes,colors,styles,borders and many other features.
+6. [ **Social Media** ](https://wpmet.com/plugin/elementskit/social-media/) - Display your social media icons including Facebook, Instagram, Twitter, Linkedin with our Social media icon Widget for Elementor on your WordPress website. Moreover, you can customize the social media icons with different shapes, colors, styles, text, borders etc using our Elementor social media addon.  
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=vK2pV6AwNYs&feature=youtu.be)
+Our Social Media Elementor Widget offers lots of styles including:  Social media icon elementor widget with filled circle color style, wp social media icon with square border, social media icon elementor modules with filled square color style, social media icon elementor widget text with rectangle color style, wordpress social media icon widget with multi color,  elementor extensions social media account icons with text.
 
-7. [ **Recent Blog** ](https://wpmet.com/plugin/elementskit/blog/) - This widget is very helpful  for the blogger who wants to customize their blog content,design without any knowledge of HTML or CSS .Our blog elementor widget comes with features like layout, query and meta data.Select post at your own choice like recent post,selected post and category post in a very easy way with just a few clicks.
+7. [ **Recent Blog** ](https://wpmet.com/plugin/elementskit/blog/) - Our recent blog post widget Elementor page builder allows you to showcase your blog post listing on your Elementor webpages. Using the blog post elementor addon you can change layout, query, metadata and display your blog post based on the category, publish date & top viewed post.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=9O_mPiS-8bY&feature=youtu.be)
+Our Recent blog post addon for Elementor offers lots of styles like: Elementor soft & full grid blog post style, elementor addons dark & full grid blog post style, wordpress dark blog post style without image, wp light post style without image, elementor addons single blog template style, post showcase module in light post style with image, elementor extensions blog post with meta info button, simple blog post layout with meta style.
 
-8. [ **Client and sponsor logo** ](https://wpmet.com/plugin/elementskit/client-logo/) - Want to display your client or sponsor logo in your websites so that the potential client can know details about your client and sponsor? Use our premium elementor widget to customize logo widget with unique styles.
+8. [ **Client and sponsor logo** ](https://wpmet.com/plugin/elementskit/client-logo/) - Our Client and Sponsor logo widget for Elementor helps you to showcase client and sponsor logos on your Elementor web pages with different styles including client logo carousel slider. You can also customize the client logo section as per you need using our client logo addon for Elementor.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=l4JJVvk3kJQ&feature=youtu.be)
+Our Client and sponsor logo addon for Elementor offers lots of styles like: Elementor client logo with gradient box effects, elementor clients logo with box shadow effects, elementor extensions, clients logo with solid color effects, wordpress client logo slider with thin border effects, wp client double row slider, elementor modules client logo black and white effects, elementor addons client logo carousel style, client logo no gutter style, client logo carousel slider with full inner navigation effects.
 
-9. [ **Countdown Timer, Clock timer** ](https://wpmet.com/plugin/elementskit/countdown-timer/) - It is really important to showcase the site visitor about such events: new website launch, time left until a product release,sale ending time etc.Here we have our best and easy solution with our eye-catching countdown timer elementor widget which has lots of attractive styles,timer modification and expire action features.
+9. [ **Countdown Timer, Clock timer** ](https://wpmet.com/plugin/elementskit/countdown-timer/) - Our Countdown widget for Elementor will allow you to use the countdown timer feature on your Elementor website. You can use lots of effects, styles, and formats using our Elementor countdown timer addon.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=m7WcVE3umaM&feature=youtu.be)
+Our countdown timer addon for Elementor offers lots of styles like: Elementor countdown timer in fill color style for event, elementor birthday countdown in timer line stroke color style, elementor addons clock countdown timer with colorful fill style, wordpress counter with colorful gradient fill style, wp counter box border style, counter box dark border style.
 
-10. [ **FAQ** ](https://wpmet.com/plugin/elementskit/faq/) - One of the best ways to gain new customers and save time with this elementor widget by answering constrant questions.Our FAQ elementor widget comes with a listing layout,shows answers below every question where you can customize the content design with different unique styles.
+10. [ **FAQ** ](https://wpmet.com/plugin/elementskit/faq/) - Our FAQ widget for Elementor will enable you to showcase your frequently asked questions (Q&A) on your Elementor webpage. Our FAQ Elementor addon comes up with a listing layout, shows answers below every question where you can customize the content design with different unique styles.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=q7EMV05-YJk&feature=youtu.be)
+Our FAQ addon for Elementor offers lots of styles like: Elementor default faq box with shadow style, wordpress faq box with border style, wp faq transparent background with border, elementor modules faq list style, wordpress faq toggle style, wp faq accordion style, elementor addons faq box with title background, simple faq style.
 
-11. [ **FunFact** ](https://wpmet.com/plugin/elementskit/funfact/) - With this interesting elementor widget you can testify to the huge number of fascinating facts about the world around us for the fun loving and curious people.Like our other widgets FunFact elementor widget have many customization options like content,background and others for every section.
+11. [ **FunFact** ](https://wpmet.com/plugin/elementskit/funfact/) - Using the Funfact Elementor widget, you can showcase the number, statistics, achievements and facts in a progessive number counter. This animated number counter Elementor addon helps to customize the background, icon, and format to display your number counter accordingly.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=YJCVWamwW0A&feature=youtu.be)
+Our FunFact addon for Elementor offers lots of styles like: Elementor funfact box shadow style, elementor addons fun facts with fill icon box, number counter radius with border icon box, wordpress animated number counter style, wp stats animated number counter style, elementor social media fans counter, elementor modules statistic counters, elementor project counter style, elementor addons product counter style, followers counter style.
 
-13. [ **Icon box** ](https://wpmet.com/plugin/elementskit/icon-box/) - An obvious Icon box elementor widget is needed for building a website mainly used for product and service page. Display your products and services in an attractive way through our elementor widget with customization options like icon type,read more,badge,content,icon box container,background,overlay and many more.
+12. [ **Icon box** ](https://wpmet.com/plugin/elementskit/icon-box/) - Our icon box widget for Elementor allows you to display a short brief about the services you provide or products you offer within boxes with customization options like icon type, badge, content, icon box container, background, overlay etc.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=vom3nCp1ytc&feature=youtu.be)
+Our Icon box addon for Elementor offers lots of styles like: Elementor icon box with default style, elementor addons icon box with gradient hover style, elementor modules service box with icon, wordpress colorful icon box shape with fill color, elementor service box style, wp icon box shape with image overlay, elementor icon box with left side icon, list style with colorful icon box
 
-14. [ **Image Accordions** ](https://wpmet.com/plugin/elementskit/image-accordion/) - This elementor widget will help you to show multiple images in a shortened way,the image will expand in just one click.We want to introduce you our most amazing elementor addons with accordion effect with many extraordinary features and customization options in the title,content,button and action icon area.
+13. [ **Image Accordions** ](https://wpmet.com/plugin/elementskit/image-accordion/) - With our image accordion widget for Elementor, you can display multiple images in a shortened format with title, subtitle, description and call to action button. 
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=SeebZHPsAkI&feature=youtu.be)
+Our image accordion addon for Elementor offers lots of styles like: Elementor default image accordion style, elementor addons 4 columns image accordion style, elementor extensions image accordion slider carousel, elementor 4 columns image accordion no gutters style, wordpress image accordion slider style, 5 columns image accordion no gutters style.
 
-15. [ **Image Box** ](https://wpmet.com/plugin/elementskit/image-box/) - If you are looking for an elementor widget that will show an image with heading and description,our image box elementor widget is a perfect match for this.You can customize hover border bottom,image,body and button with our elementor imagebox widget exactly how you desire for.
+14. [ **Image Box** ](https://wpmet.com/plugin/elementskit/image-box/) - Our Image Box Widget for Elementor lets you add image boxes that combine images with headlines, texts, and call to action buttons. You can style up the image boxes with lots of effects and formats using our Elementor Image box addon. 
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=GrsBHIsaYZo&feature=youtu.be)
+Our image box addon for Elementor offers lots of styles like: Elementor modern image box, elementor addons image box with content, elementor extensions image box border bottom on center style, elementor modules image box border bottom on right style, wordpress image box with right content, wp image box with sidebar, elementor image box content slide down
 
-16. [ **Piechart** ](https://wpmet.com/plugin/elementskit/pie-chart/) - Elementor pie-chart widget helps you to display multiple types of data into a visual form.By using our elementor Pie-Chart widget you can design pie-chart styles,chart content and percentage according to your expectations.
+15. [ **Piechart** ](https://wpmet.com/plugin/elementskit/piechart/) - Our Pie Chart widget allows you to create data pie charts on your Elementor web pages. Using this Elementor Piechart addon, you can design Pie-chart styles, chart content, and percentage according to your expectations.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=_2gaHU3bWjA&feature=youtu.be)
+Our Piechart addon for Elementor offers lots of styles like: Elementor colorful pie chart style, elementor addons black color pie chart style, wp gradient pie chart style, wordpress thin line with colorful pie chart style, elementor thin line pie chart style, pie chart with data.
 
-17. [ **Pricing** ](https://wpmet.com/plugin/elementskit/pricing-new/) - Demonstrate your clear product value with pricing table so that the potential client will get attracted and become your permanent client.We want to offer you our modern pricing table elementor widget which will help you to customize header,price tag,features,button,pricing figure,ordering and many more advanced features.
-
-18. [ **Progress bar** ](https://wpmet.com/plugin/elementskit/progress-bar/) - Do you want to visualize your projects progress with a number that will speak for you? So let’s try out our latest progress bar elementor widget.Our progress bar elementor widget accompanied with different styles that you can anticipate your progress bar with unique styles.
-
-19. [ **Testimonial** ](https://wpmet.com/plugin/elementskit/testimonial/) - Show your client side’s awesome feedback on your sites with perfect testimonial elementor addon which will attract the visitor and make it more trustworthy.Like our other elementor addons, testimonial addon have various user friendly customizable options like layout,wrapper content style,description,title separator,client etc.
-
-20. [ **MailChimp** ](https://wpmet.com/plugin/elementskit/mail-chimp/) - Basically mailchimp is the easiest way which helps you to create and manage mailing list,automated mailing,newsletter and many other options.Through our mailchimp elementor addons you can personalize your sign-up form with attractive and multiple styles.
-
-21. Header Info - It is said that first impression is the last impression.The first thing that catches a user eye on the website is the header. So it is very important that your header info must be perfect. By considering this matter we have designed header info widget exactly what you desire for.Our header info elementor widget contains header, icon, text, content, styles with color, typography and other advanced features.
-
-22. [ **Image Comparison** ](https://wpmet.com/plugin/elementskit/image-comparision) - Do you want to display your image widget that will be able to compare two images and gives attractive before and after effect? Here we have come with an amazing solution for you. With our current image comparison elementor widget, you can compare the image by selecting vertical or horizontal.In addition, like our other elementor widget there are lots of pro features too like custom CSS,motion effects,border and much more.
-
-23. [ **Call to action** ](https://wpmet.com/plugin/elementskit/call-to-action/) - If you want to bring image,button and content and other features under one box and grab your visitor attention,then call to action widget is the best technique for this.We are offering you our most amazing  call to action widget preset with an attractive design which will help you to gain more customers.
-
-24. [ **Video** ](https://wpmet.com/plugin/elementskit/video/) - To give proper product information,use video widget and make your website top rated in search ranking and grab more attention from the user side. It’s not an easy task to upload videos on your sites.But no worries,our main goal is to make your task easy. Through our video elementor widget you can easily upload, preview, autoplay, play on mobile, Image overlay and so on with different styles and many more advanced features.
-
-25. [ **Post Tab** ](https://wpmet.com/plugin/elementskit/post-tab/) - This elementor widget is to display your blog, popular post and recent post in a professional way.It will attract user attention and make your blog more readable. Our elementor post tab widget will allow you to select categories,post count,select column with unique styles and different advanced features.
-
-21. [ **Category List** ](https://wpmet.com/plugin/elementskit/category-list/) - There are lots of subject or topic on a website.Display every section of the topic in different categories so that the reader can easily understand your content.Add your own category in a listing method with various styles,layout and other advanced options.
-
-26. [ **Post list** ](https://wpmet.com/plugin/elementskit/post-list) - Show your content or blog in a listing method. It’s a tricky way to grab more attention from the user to use post list to your sites rather than writing paragraph. Customize your post list with our post list elementor widget bt selecting category,change layout,text,metadata and many more.
-
-27. [ **Page list** ](https://wpmet.com/plugin/elementskit/page-list/) - Like our post list elementor widget, page list will show a list of all pages to your sites.Show or hide your pages with your own choice. You can also change layout,target,icon,text,subtitle and many more latest option.
-
-28. [ **Offcanvas Menu** ](https://wpmet.com/plugin/elementskit/offcanvas/) - It’s the best option for you if you want your user will navigate less. Display your demo,registration or important content with the help of this slider off canvas menu.We offer you our best header off canvas menu changeable content,styles, panel,layout,typography and advanced options.
-
-29. [ **Drop Caps** ](https://wpmet.com/plugin/elementskit/drop-caps/) - This widget is basically for showing a large letter at the start of a text to grab more attention from the visitor. Use our drop caps elementor widget to customize color,content and other more.
-
-30. [ **Social Media** ](https://wpmet.com/plugin/elementskit/social-media/)
-
-31. Nav Menu - Do you want your user to navigate different pages with just one click? We are really glad to introduce you to our simple and customizable nav menu elementor widget which will provide you the ability to create drop down menu,mega menu with different menu settings, submenu item styles,submenu panel styles,humburder styles,mobile menu logo and other advanced styles at your own choice.
-
-32. [ **Dual Button** ](https://wpmet.com/plugin/elementskit/dual-button-2/) - This elementor widget will help you to display two stylish button side by side.Our duel button elementor widget have seperate button setting options with attractive styles.
-33. [ **Business Hours** ](https://wpmet.com/plugin/elementskit/business-hours) - Stay updated with your business hour on your sites so that the customer gets to know about your openings and make a deal with you accordingly to your preferred time. Use our business hour elementor widget with perfect design and styles to attract customers.
-
-34. [ **Social share** ](https://wpmet.com/plugin/elementskit/social-share/) - Now-a-days social media is a great platform to gain publicity overnight.Use social share elementor widget to share your blogs,post,latest update to upgrade the popularity of your sites. We will give you the best choice to design your social share icon,text,position and many more.
-
-35. [ **Caldera Form** ](https://wpmet.com/plugin/elementskit/caldera-form/) - Build your complex form in an easy and seamless way with caldera form elementor addon.Our caldera form elementor addon comes with different types of form,you just have to select your desire one.You can also change the design,pattern of the form layout,input,button and others.
-
-36. [ **Contact form 7 Contact form** ](https://wpmet.com/plugin/elementskit/contact/) - Want to get all the information directly from the customer end and also in a filtered manner? Inform user about the exact reply time and some initial steps,they can take earlier through our contact form elementor widget.This contact form 7 elementor widget will allow you to create various types of customizable options like level,input,buttons, layout,styles and lots of  advanced appearances.Check out our video screencast:
-
-37. [ **Metform elementor ** ](https://wpmet.com/plugin/elementskit/met-form/) - Most flexible and design-friendly Contact Form builder for elementor. build any form on the fly with metform builder. It can manage multiple contact forms, and you can customize the form with an elementor builder.
-
-38. [ **Ninja Forms** ](https://wpmet.com/plugin/elementskit/ninja-forms/) - Are you a non-technical person? Do you want to design your website form in a professional way? Don’t need to worry about that. We are always there for you with a solution. Our Ninja Form Elementor Widget will give you the best options including drag and drop field, layout, title and description, required field notice, success message,  input and textarea, field description, placeholder, submit button, errors and others more to build your own forms exactly how you want.
-
-39. [ **Wp forms** ]( https://wpmet.com/plugin/elementskit/wp-forms/)
-40. [ **We forms** ](https://wpmet.com/plugin/elementskit/we-forms/) -  Are you getting bored watching outdated form that looks tacky?.This elementor We form widget will help users register,give data,add request,contact, sending email and many more things in a very easy way.With our we form elementor widget you can select your form according to your choice from the drop down option.You can also styling it with color,fields,level,button and many more.
-
-41. [ **Search** ](https://wpmet.com/plugin/elementskit/header-search) -  If you want your user to find out your previous post,content easily then we have come with an easy solution for you.Our search elementor widget will show you exactly what you are searching  for.You can also personalize color,position,border etc of the search elementor widget.
-
-42. **Header Info** : It is said that first impression is the last impression.The first thing that catches a user eye on the website is the header. So it is very important that your header info must be perfect. By considering this matter we have designed header info widget exactly what you desire for.Our header info elementor widget contains header,icon,text,content,styles with color,typography and other advanced features.
+16. [ **Pricing Table** ](https://wpmet.com/plugin/elementskit/pricing-new/) - Describe your clear product value with pricing table Elementor widget. Our pricing table Elementor addon helps to customize header, price tag, features, button, pricing figure, ordering and much more.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=ARkybC52qAU&feature=youtu.be)
+Our Pricing Table widget for Elementor page builder offers lots of styling options including:
+Elementor widgets price table with default style, elementor addons pricing table 04 column with gradient style, wp elementor pricing table block 03 column with gradient red color style, elementor pricing grid 03 column with box shadow style, elementor pricing table 03 column with box shadow custom style.
 
 
-42. [ **Lottie** ](https://wpmet.com/plugin/elementskit/lottie/) A json based Animation file format that is designed to create animations for any type of platform including iOS, Android, web and React Native. Create your own high-quality Animation With our Lottie Elementor Widget. Just easily export json file or Provide URL, Enable Reverse, Autoplay, Loop, Render Type, Select Hover options and lots of other features. Check this out in our video screencast:
+17. [ **Progress bar** ](https://wpmet.com/plugin/elementskit/progressbar/) - Visualize your project's progress with our progress bar widget for Elementor. Using our progress bar addon for Elementor you can showcase skills, success rate, future goal predictions or project progress with lots of styles and control options. 
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=LJRu_nMqUtY&feature=youtu.be)
+Our Progress bar widget for Elementor page builder offers lots of styling options including: 
+Elementor progress bar with line shape, fatter line, animated skill bar line with shadow, elementor addons percentage bar line with white background, wordpress progress bar line with rounded style, progress bar with tooltip, elementor widget skill bar with tooltip square, elementor addons progress bar dots style, wp progress bar tooltip circle point. 
 
 
+18. [ **Testimonial** ](https://wpmet.com/plugin/elementskit/testimonial/) - Show your clients feedback, recommendations on your sites with a perfect testimonial Elementor addon. Like our other Elementor addons, testimonial addon have various customizable options like layout, wrapper content style, description, title separator, client etc.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=SzNlJFx1QUo&feature=youtu.be)
+Our Testimonial widget for Elementor page builder offers lots of styling options including: Elementor Testimonial Company logo with image style, showcase testimonial Company logo with grid style, Free testimonials showcase Gradient on hover style, Wp easy testimonial Commentor info with text, Testimonial rotator style for WordPress, best testimonials showcase plugin with border, Elementor widget customers reviews with modern design, WP Star ratings with gradient effect.
 
-43.  **Post Grid:** ](https://wpmet.com/plugin/elementskit/lottie/)  This Elementor Widget will help you to display your special content, image, post, product etc in a group with different styles without any knowledge of coding skill. Our Post Grid Elementor Widget has customizable options including categories, post count with grid styles, motion effects etc. Check out our video screencast:
+19. [ **MailChimp** ](https://wpmet.com/plugin/elementskit/mail-chimp/) - Create and manage a mailing list, automated mailing, newsletter, and many other options with mailchimp elementor widget for wordpress sites. Through our mailchimp Elementor addons you can personalize your sign-up form with attractive and multiple styles.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=rmvVqYtrPdQ&feature=youtu.be)
+Our Mailchimp widget using Elementor page builder offers lots of styling options including: Mailchimp with horizontal default subscribe style, mc4wp with horizontal subscribe gradient style for ecommerce, mailchimp with newsletter using elementor page builder, mc4wp with subscribe single button, mailchimp with contact form 7 for wordpress, mailchimp single button for woocommerce sites, mailchimp form subscribe with single button style.
+
+20.  [ **Header Info** ] - Display your logos, texts, business info, advertisements, banners using our Elementor header addons. Our header info Elementor widget contains header, icon, text, content, styles with color, blocks, typography, and other advanced features.
+Our Elementor Header Info addon offers lots of styling options including: Elementor sticky header for wordpress with icon, elementor sticky menu with text, header with blue color, elementor sticky widget with logo, header floating menu with banner image, header template with dark style, wordpress header style with hover effect, elementor menu with content, elementor website header design with typography.
+
+21. [ **Image Comparison** ](https://wpmet.com/plugin/elementskit/image-comparision) - Display your Elementor image widget that compares two images and gives an attractive before and after slider effect. With our image comparison Elementor widget, you can compare the image by selecting vertical or horizontal with motion effects, customize label color, typography, background type, margin, padding etc for before and after image.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=BJiDEaLvddQ&feature=youtu.be)
+Our Elementor Image Comparison addon offers lots of styling options including: Elementor  Image Comparison addon before after slider with vertical style,  Elementor before after image comparison slider with horizontal style, WordPress Before after slider with dark style, Elementor Image Comparison addon before after image slider with border, Elementor image comparison slider with hover, Elementor visual composer image comparison slider with border radius.
+
+22. [ **Call to action** ](https://wpmet.com/plugin/elementskit/call-to-action/) - Bring an image, button and content and other features under one box with Elementor call to action widget. With this call to action Elementor page builder addons you can select image, button, title, color and many more styling options.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=nVHM65aLrcY&feature=youtu.be)
+Our Elementor Call to action Elementor addon offers lots of widget preset including: Elementor call to action with image, elementor cta with title and button, elementor cta with colorful effects, elementor call to action widget with gradient look, wordpress elementor call to action addons with rounded button, elementor call to action addons with dark background image, elementor modules call to action background image with title & subtitle.
 
 
-44.  **Table Press** ](https://wpmet.com/plugin/elementskit/tablepress/) - This Elementor Widget will allow you to create your brand-new table in a very easy way. Here we have our most powerful Elementor Widget for Table Press. There is a drop-down menu where you can select any type of table. Moreover, there are enable or disable options for nav hide, search hide, footer info hides, pagination hide. There is more styling for table, header, body, filter and search options.
+23. [ **Video** ](https://wpmet.com/plugin/elementskit/video/) - Video widget for Elementor gives you the ability to add playable videos to your page. Through our video Elementor addon you can easily upload, preview, autoplay, play on mobile, Image overlay, and so on with different styles and many more features.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=bbnP-zjNnkk&feature=youtu.be)
+Our Elementor Video Elementor Widget offers lots of styles including: Embed elementor video addons with play button, elementor video widget with button text, parsing elementor video widget with icon, embed elementor video widget with image overlay, wordpress video addons with thumbnail, wp embed elementor video addons for youtube livestream, mobile responsive elementor video addons for vimeo.
+
+
+24. [ **Post Tab** ](https://wpmet.com/plugin/elementskit/post-tab/) - This Elementor post tab widget helps you to display your blogs, popular posts and recent posts in tabs as per category. With our post tab addons for Elementor you can customize post count, categories, columns with unique styles.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=ZoZv7sYqdwU&feature=youtu.be)
+Our Elementor Post Tab Elementor Widget offers lots of styles including:  Elementor post tab with image,  elementor addons post tab with hover style, custom post tab widget for elementor page builder with vertical style,  elementor widgets post tab with subtitle, wordpress post tab widget for elementor with separator style for woocommerce sites, wp post tab with red color style, post tab with 2 column, post tab with 3 column, post tab with 4 column.
+
+
+25. [ **Category List** ](https://wpmet.com/plugin/elementskit/category-list/) - Organize every section of each category in a list. Our Elementor category list widget comes with various category list styles, layout, and other advanced options. Using the category list Elementor page builder addon, you can customize the category list section easily.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=ECFC0QregXg&feature=youtu.be)
+Our Category List Elementor Widget offers lots of styles including:  Category List Elementor Widget with vertical style, Category List Elementor Widget with horizontal style, Category List Elementor Widget with icon, WordPress Category List Elementor Widget with subtitle, Subpages Category List Elementor Widget with label,  Category List Elementor Widget with categories, Category List Elementor Widget with post tags.
+
+26. [ **Post list** ](https://wpmet.com/plugin/elementskit/post-list) -  The post list widget for Elementor will let you display your posts in a well-formatted list. Customize your post list elements with our post list Elementor addon and select category, change layout, text, metadata and many more.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=LTt3kvPGsCo&feature=youtu.be)
+Our Post list  Elementor addons offers lots of styles including:  Post list elementor widget with vertical style, popular post list elementor widget with horizontal style, custom post list elementor addons widget with icon, wordpress post list elementor widget with media, subpages post list elementor widget with label, wp post list elementor widgets with categories, post list elementor widget with post tags, post list elementor widget.
+
+27. [ **Page list** ](https://wpmet.com/plugin/elementskit/page-list/) - Page List Elementor widget helps to display your list of pages in a horizontal or vertical layout and customize using the widget for WordPress website. You can change layout, target, icon, text, subtitle etc.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=X7GdOwcy5Uo&feature=youtu.be)
+Our Page list Elementor Widget offers lots of styles including: Page list elementor widget with vertical style, wordpress page list sitemap with horizontal style, page list elementor widget with text, page list elementor widget with background color, page list elementor widget with icon, recent pages list elementor widget with subtitle, subpages page list elementor widget with label.
+
+28. [ **Offcanvas Menu** ](https://wpmet.com/plugin/elementskit/header-offcanvas/) - Elementor Offcanvas Menu Allow the user to display a sidebar content like demo, registration when the specific button is triggered. Our Elementor header off canvas menu provides options to add content blocks of title, text, video, images, forms, social icons etc. 
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=fb4usBDqLnk&feature=youtu.be)
+Our Offcanvas Menu Elementor Widget offers multiple styles including: OffCanvas with header, elementor offcanvas sidebar with border, elementor offcanvas sidebar with panels, wp mobile responsive off-canvas with menus, elementor offcanvas menu style with sidebar, mobile responsive off-canvas with menus,  elementor offcanvas menu with gradient style, elementor offcanvas menu with classic style, wordpress offcanvas menu with shadow style.
+
+
+29. [ **Drop Caps** ](https://wpmet.com/plugin/elementskit/drop-caps/) - This Drop Caps Elementor Widget lets you display the first letter in a stylish, large, and capitalized format. Using the Drop Caps elementor page builder addon, you can customize the color, content, border, radius and other more. 
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=SyO81w-pgi0&feature=youtu.be)
+Our Drop Caps Elementor Widget offers lots of styles including: Drop caps elementor widget with default style,  wp drop caps with background style, drop caps background with rectangular style for wordpress, drop caps elementor widget background with border style, drop caps elementor widget background with full radius style.
+
+
+30.  [ **Nav Menu** ] - Nav Menu Elementor widget allows you to navigate different pages and create a drop down elementor nav menu, mega menu with different menu settings including control spacing between all elements, position, colors, background, width, separators, borders and close icon etc.
+Our Nav Menu Elementor widget offers lots of styles including: Submenu item styles, submenu panel styles, nav menu humburder styles, mobile page navigation menu logo for wordpress, nav menu elementor addons with light style, wp nav-menu widget with dark style, nav menu elementor widget with mixed style. 
+
+31. [ **Dual Button** ](https://wpmet.com/plugin/elementskit/dual-button-2/) - Display two buttons side by side with the Elementor dual button widget. You can even make colorful call to action dual buttons with dual button Elementor addon.
+ [ **Check out our video screencast** ](https://www.youtube.com/watch?v=Yk4RikCqW3g&feature=youtu.be)
+Dual button widget for Elementor offers multiple buttons like: Elementor dual button with middle text, border radius dual button, border radius dual calls to action buttons, elementor calls to action buttons, dual button call to action style, wp square dual button with icon, rounded button with icon, CTA buttons with separator icon, wordpress button addon with both sided icon.
+
+32. [ **Business Hours** ](https://wpmet.com/plugin/elementskit/business-hours) - Use business hour widget for Elementor to inform about your opening hours so users can get updates on whether you are currently open or not. Use our business hour Elementor widget with unique design and styles.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=nhp67zqBOFM&feature=youtu.be)
+Business Hours Elementor widget offers multiple styles like: Elementor working hours addon, Elementor addons reservation hours style, Elementor widgets opening hours, wordpress business hour indicator style, wp pre-defined business timings, office hours widget, custom working days & hours, opening times and closing times.
+
+33. [ **Social share** ](https://wpmet.com/plugin/elementskit/social-share/) - Share your content in your social media accounts with one button click. Our Elementor social share widget will enable you to share blog posts, news and latest updates on Facebook, Twitter, Linkedin, Pinterest and more.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=j1OMUDFaaaA&feature=youtu.be)
+Social share addon for Elementor page builder offers multiple styles like: Elementor social sharing button style, floating social sharing buttons style, vertical floating share button for wordpress, horizontal floating share button style, social media share with icons & text, wp social media share icons in button style.
+
+34. [ **Caldera Form** ](https://wpmet.com/plugin/elementskit/caldera-form/) - Build your contact form with caldera form Elementor widget. Caldera form Elementor addon comes up with different types of form style for capturing leads.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=umCaUQFC7JY&feature=youtu.be)
+Caldera form addon for Elementor offers multiple styles like: Vertical style caldera form for elementor, horizontal style caldera form, nurture with colors caldera form, caldera form with submit button for wordpress, caldera form with radio and checkbox button, caldera forms with background, elementor caldera forms with outer background, double column caldera form with full width button, dark color field caldera form, double column field distribution caldera form, form manager for elementor, wp form creator.
+
+35. [ **Contact form 7** ](https://wpmet.com/plugin/elementskit/contact/) - Contact Form 7 Elementor Widget will help you to create various types of contact forms. Using our Contact Form 7 addon for Elementor, you can design your contact form container, fields and choose the preferred form layout to style it exclusively.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=rgm3eTMYr24&feature=youtu.be)
+Contact form 7 addon for Elementor page builder offers multiple styles including: Vertical style contact form 7 for elementor, Elementor addons horizontal style contact form 7, vertical contact form with gradient button style, wp contact form 7 with colors, elementor extensions animated line contact form 7 style, outline style contact form 7, flat style contact form 7, wordpress feedback form, elementor contact with us form, wordpress contact form 7 with label, contact form 7 without label, contact form 7 with bottom border.
+36. [ **Metform elementor ** ](https://wpmet.com/plugin/elementskit/met-form/) - 
+Metform allows you to create any contact forms, feedback form, subscription forms, and other types of forms for your WordPress site in minutes. Manage multiple forms and customize the form with Metform builder for Elementor with multiple input fields.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=8R4-Q14cu-w&feature=youtu.be)
+Metform addon for Elementor page builder offers multiple styles including: Elementor inquiry style form with metform, elementor booking style form with metform addon, elementor resume form builder, wordpress horizontal style form, vertical style contact form, wordpress contact form with colorful button, feedback style form extension.
+
+37. [ **Ninja Forms** ](https://wpmet.com/plugin/elementskit/ninja-forms/) - Ninja forms Elementor widget will give you the facilities to create contact forms with different types and styles. You can customize every element of the form as per your need using the Ninja forms addon for Elementor.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=XOwlb5u2GrQ&feature=youtu.be)
+Ninja Forms addon for Elementor page builder offers multiple styles including: Elementor feedback form addons, wp event registration form, inquiry form template, custom contact form, pdf form submission, user registration form, wordpress appointment form, survey form elementor addon, elementor email subscription form, elementor newsletter form, elementor donation form builder, booking form for wordpress, wp application form, wordpress employment verification form, elementor star rating form.
+
+38. [ **Wp forms** ]( https://wpmet.com/plugin/elementskit/wp-forms/) - Wp forms widget for Elementor page builder lets you build any type of forms like contact form, suggestion form, newsletter, subscribe form etc with different styling options.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=XOwlb5u2GrQ&feature=youtu.be)
+Wp Forms addon for Elementor page builder offers multiple form styles including: Elementor custom contact form, elementor forms builder, wp feedback form builder, payment form widget, wordpress survey form, donation form addon, email submit form for elementor, contact form widget, wordpress user registration form, elementor contact form builder.
+
+39. [ **We forms** ](https://wpmet.com/plugin/elementskit/we-forms/) - Elementor We forms widget will help you to build various contact forms with different colors, fields, labels, buttons, and more customization facilities. 
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=4uYi0833Kjw&feature=youtu.be)
+We forms addon for Elementor page builder offers multiple form styles including: 
+Elementor support form, volunteer application form builder, wp event registration form, elementor contact form builder, contact form extension, weform elementor widget, wordpress form builder.
+
+40. [ **Search** ](https://wpmet.com/plugin/elementskit/header-search) - Elementor search widget will help you to find what you are searching for on your WordPress website. You can also personalize color, position, border and more with Elementor advanced search addon.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=poBmDTuXBL0&feature=youtu.be)
+Header search addon for Elementor page builder offers multiple search types including: Woocommerce search addon for elementor, wp search widget, wordpress image search, live search option, product search addons, woocommerce advanced search widget, elementor custom search, search by post type, search by category, wp relevant search.
+
+41. [ **Lottie** ](https://wpmet.com/plugin/elementskit/lottie/) - Our Lottie animation widget for Elementor gives you the ability to add Lottie Animations to your Elementor pages. Just easily export a json file or provide URL to use animation. Moreover you can enable reverse animation, autoplay, loop, render type, select hover options and lots of other features. 
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=yey37Nxqjno&feature=youtu.be)
+Lottie addon for Elementor page builder offers multiple styles animation including: Lottie widget with custom count loop, lottie widget with autoplay, elementor lottie widget with increase speed, lottie widget with reverse animation, wp lottie widget with hover pause effect, wordpress lottie hover play effect, hover with reverse play effect, elementor lottie widget with custom link, elementor lottie on scroll parallax effect, animations on individual hover style, lottie viewport animation style.
+
+42. [ **Post Grid:** ](https://wpmet.com/plugin/elementskit/post-grid/) - Elementor post grid widget will help you to display your content, image, post, product etc in a group with different styles. It has customizable options including categories, post count with grid styles, motion effects and more.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=Mz_KiyAdGhI&feature=youtu.be)
+Post grid addon for Elementor page builder offers multiple styles including: Elementor two grid layout style, elementor three grid layout style, wordpress four grid layout style, wp custom post grid, wordpress post type grid, wp post display, elementor content grid addons, post view widget, elementor modules masonry layout with animation, post grid with zoom in animation, post grid with slideup animation.
+
+43. [ **Table Press** ](https://wpmet.com/plugin/elementskit/tablepress/) - Elementor TablePress widget will allow you to create responsive data tables in your WordPress website. Style up your table header, body & filter options with TablePress Elementor table builder addon.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=XOwlb5u2GrQ&feature=youtu.be)
+Table Press addon for Elementor page builder offers multiple styles including: Elementor tablepress flip style table, elementor addons scroll style data table, wordpress stack style table, elementor modules tablepress data table style, wp advanced data table, elementor table builder colorful data table style, spreadsheet data table style, full weight style wordpress table. 
+
 
 == Exclusive modules ==
-We have developed Awesome exclusive modules which saved tons of time when you are developing your site. As well it will saved your time to develop your site within shortime.
+We have developed Awesome exclusive modules which saved tons of time when you are developing your site. As well it will save your time to develop your site within a short time.
 
-- ElementsKit Header and footer builder We have built this with Elementor builder to provide your introductory content in the header and group of content or links at the footer which will encourage users to take action. Our ElementsKit plugin will help you to create your header and footer template with a logo and menus. Also you can use the constants in pro version to show any page you like. there are three types of conditions you can select such as Entire Site, Singular, and Archive. Basically, you can choose which page you want to add your Header and Footer. there is an activation option like you can active or inactive the Header and Footer whenever you want.
+- **ElementsKit Header and footer builder:** We have built this with Elementor builder to provide your introductory content in the header and group of content or links at the footer which will encourage users to take action. Our ElementsKit plugin will help you to create your header and footer template with a logo and menus. Also you can use the constants in the pro version to show any page you like. There are three types of conditions you can select such as Entire Site, Singular, and Archive. Basically, you can choose which page you want to add your Header and Footer. there is an activation option like you can active or inactive the Header and Footer whenever you want.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=XOwlb5u2GrQ&feature=youtu.be)
 
--<a href="https://products.wpmet.com/megamenu/">Megamenu builder (PRO Layout)</a> - Develop user experience with your sites and cover all the necessary categories by using mega menu. It’s the best way to navigate the deepest section of your sites with just one click with this drop-down menu. You can build your own mega menu beyond your expectation with our mega menu builder. Our most unique feature is you will have two options  for mobile view to show your submenu, one is  “Builder Content” and another one is “Wp Sub Menu List”. Other pro features are drag and drop menu builder panel, auto add pages, social links menu, display location, pages, content, menu, badge, post, custom links, categories, and many more. Check out our video screencast:
+- [ **Megamenu builder (PRO Layout)** ](https://products.wpmet.com/megamenu/) Develop user experience with your sites and cover all the necessary categories by using mega menu. It’s the best way to navigate the deepest section of your sites with just one click with this drop-down menu. You can build your own mega menu beyond your expectations with our mega menu builder. Our most unique feature is you will have two options  for mobile view to show your submenu, one is  “Builder Content” and another one is “Wp Sub Menu List”. Other pro features are drag and drop menu builder panel, auto add pages, social links menu, display location, pages, content, menu, badge, post, custom links, categories, and many more. Check out our video screencast:
 
-- Onepage scroll:  One page scroll is a module of elementsKit. Add any page with one page full screen scroll.
+
+-  **Sticky Content:** If you want your user stuck or fixed in a section, even the section won’t vanish after scrolling down, then you need to use our powerful Sticky content Widget. This feature will help you to access your content from any place on the webpage. For this we have an option for choosing your place from the drop down like Top or Bottom. You can also choose your device to be active or inactive such as Desktop, Tablet, or Mobile. There are other options including Sticky offset, Add ekit-sticky-effects and other more.
+
+- **Onepage Scroll:** Want to Scroll through your site very easily and make your site more elegant? One page scroll feature will give you the mobile app scrolling feeling to your webpage. Our effective and light-weight one page scroll that comes with a 15+ navigation style where users are allowed to scroll through Dot Move, Scale up or Line Move and many more. One page scroll is the most amazing  module of elementsKit. Add any page with one page full screen scroll with an ease.
+
 
 == Exclusive PRO Addons widgets ==
-1. [ **https://wpmet.com/plugin/elementskit/gallery/** ](Gallery & portfolio) - Showcase your recent photos,company environment, events etc for your visitors with elementor image gallery portfolio widget. Our elementor image gallery widget comes with an easy solution to create your beautiful gallery with content, layouts, thumbnails, overlay, filter,captions and sequence animations and many more.
-2. [ **Advanced Accordion (PRO)** ](https://wpmet.com/plugin/elementskit/advaced-accordion/) - The most advanced accordion widget that will bring your sites to a new level and make your user spend more time on your sites. This accordion adds any content you want and elementor widgets can be used in this advanced accordion.  If you are looking for elementor widget that will show extra content with premium and full customizable options, our advanced accordion elementor addon will give you those advanced features beyond your imagination. Check out our video screencast
+1. [ **Gallery & portfolio (PRO)** ](https://wpmet.com/plugin/elementskit/gallery/) - Showcase your recent photos, company environment, events etc to your visitors with gallery widget for Elementor. Our Elementor image gallery widget comes with different styles in content, layout, thumbnail, overlay, filter, sequence, alignment, filter label, ordering etc.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=5pRmbZ2Gpvc&feature=youtu.be)
+Gallery addon for Elementor page builder offers multiple styles including: Elementor gallery style grid, elementor gallery style masonry, gallery style 4 column masonry, gallery style 4 column masonry no popup, gallery style grid 4 column addon, wp image carousel gallery style, justified image gallery for wordpress, image gallery in grid layout, custom caption & attractive hover effects, filter images within your gallery, enticing image effects for elementor.
 
-3. [ **Advanced Tab(PRO)** ](https://wpmet.com/plugin/elementskit/advance-tab/) - This advanced tab widget is the best choice for you if you want to show your content or other information in different tabs. This tab adds any content you want and elementor widgets can be used in this advanced tab widget.
+2. [ **Advanced Accordion (PRO)** ](https://wpmet.com/plugin/elementskit/advaced-accordion/) -  Showcase your features like image, content, blog, social feed, faq, countdown timer, progress bar, or MailChimp subscription form within the accordion in nested format. With our advanced accordion Elementor addon customise your content, choose style, icon, enable or disable loop count etc.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=oV-7-NNiGZo&feature=youtu.be)
+Advanced accordion addon for Elementor page builder offers multiple styles including: Elementor image accordion, accordion content for elementor, display text content with accordion effect, elementor faq accordions, responsive accordion for elementor, collapsible content style accordion, multi color accordion addon, nested accordion for wordpress, toggle icon accordion, gradient accordion with spacing.
 
-4. [ **Timeline (Pro)** ](https://wpmet.com/plugin/elementskit/time-line/) - Show your events, story in chronological order to make it more user friendly that means more understandable by using timeline. Create your timeline with our latest elementor timeline addons both vertically and horizontally. There are many advanced styles in timeline, content, and line with background, border,  positioning, responsive etc.
-
-5. [ **Advanced Chart (PRO)** ](https://wpmet.com/plugin/elementskit/chart/) - Show your real time data on your sites with advanced chart elementor widget so that users can easily understand your large number of data and relation between them. This elementor widget will help you to select different types of chart from the drop down at your own choice. You can also change data, color, level,  categories, tooltip, legend, title, animation, and other awesome features.
-
-6. [ **Data Table (PRO)** ](https://wpmet.com/plugin/elementskit/table/) - It’s not an easy task to show data tables on your sites according to your choice. Show your data in a filtered way with our data table elementor widget. You can show a huge number of unsynchronized data in a sorted way with our data table elementor widget. Easily upload custom or CSV file and get sorted data in the table with customizable table, body content, search, info, navigation, info, entries, header image, and other more options.
-
-7. [ **Creative button (PRO)** ](https://wpmet.com/plugin/elementskit/creative-buttons/) - Customize your button in a creative way with our creative elementor button widget which will help users to take action. You can create your elementor button widget with many hover effects, content, button, border, shadow,icon, and many other advanced creative designs.
-
-8. [ **Motion text (PRO)** ](https://wpmet.com/plugin/elementskit/motion-text/) - It's human behaviour that gets attracted to motion things easily. Keeping that in mind we have designed our elementor motion text widget with eye-catching motion animation, spilit text animation with styles, color, typography, text shadow, and more premium resources.
-
-9. [ **Instagram feed (PRO)** ](https://wpmet.com/plugin/elementskit/instagram/) - Instagram is the most popular social media now-a-days. By using instagram feed elementor widget you can update your pictures directly from your instagram account in different ways and upgrade your bonding with your followers. Keeping that in mind, we have created the awesome instagram feed elementor widget just to make you feel satisfied. It is designed with flexible styles, colors, layout, header, footer with many more advanced features.
-
-10. [ **Facebook feed (PRO)** ](https://wpmet.com/plugin/elementskit/facebook-feed/) - Want to showcase your facebook update to your sites so that you can easily get in touch with your followers? Get more followers and save your time by using facebook feed elementor widget. Now you can display your facebook profile, groups, pages, photos, albums, and others to your website with our customizable facebook feed elementor widget. You can change every section with hover, animation, loading effects, elementskit effect etc on just a few clicks.
-
-11. [ **Twitter feed (PRO)** ](https://wpmet.com/plugin/elementskit/twitter/) - Display your twitter image, profiles, your tweets automatically to your sites with twitter feed elementor widget. This will increase communication with your customer. To make this communication more effective we have built our twitter feed elementor widget with customizable styles, layout, cover photo, header, content, read more, hashtag, action, media, and many more exclusive options.
-
-12. [ **Woocommerce Product List (PRO)** ](https://wpmet.com/plugin/elementskit/woo-product-list/) - Display your product list in category wise or product wise so the user can easily get their desired product and purchase them. Through our elementor woocommerce product list  widget you can choose the listing option, order by,  product limit, pagination, layout,title, rating, price, add to cart etc with many more amazing styles, color, and motion effects.
-
-13. [ **Woocommerce Product Carousel (PRO)** ](https://wpmet.com/plugin/elementskit/woo-product-carousel/) - Using slider is the best way to grab people’s attention. To obtain more productivity and sales,display your product with a woocommerce product carousel elementor widget. Like our woocommerce product list widget, you will get attractive styling and advanced features like filter, layout, carousel setting, navigation, animation, and more.
-
-14. [ **Woocommerce Category List (PRO)** ](https://wpmet.com/plugin/elementskit/woo-category-list/) - With this perfect elementor widget,  you can display your product in category wise. Customers can choose category and get their desired product.Our powerful woocommerce category list elementor widget allows you to filter your product category by manual or by parent. Thus you can select all if you want and the order can be sorted..There are others pro features like layout, title, product count with customization styles, item, image, level, and many more.
-
-15. [ **Woocommerce Mini Cart (PRO)** ](https://wpmet.com/plugin/elementskit/woo-mini-cart/) - People often get irritated by adding multiple items to their cart because it makes the user navigate back to the cart page again and again. To solve this problem we have designed a simple and powerful woocommerce mini cart widget which will help users to add their desired product from any page. This elementor widget comes with multiple options like icon, cart visibility, alignment etc. There are many other customizable styles in cart button, body, header, item, subtotal, button with many more advanced pro features.
+3. [ **Advanced Tab(PRO)** ](https://wpmet.com/plugin/elementskit/advanced-tab-one/) -  Display nested elements including text box, image box, icon box, contact form, MailChimp subscription form, FAQ, team, social feed, blog, and much more within the tabs. Our Elementor Advanced tab widget provides custom options in style, icon, nav alignment and others.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=eNMp_6NturY=youtu.be)
+Advanced tab addon for Elementor page builder offers multiple styles including: Horizontal layout tabs, vertical style tab for elementor, content box with icon style tab, full grid text style tab, full grid button with vertical tab style, wordpress full grid horizontal content box tab, icon text with progress style tab, left side nav with modern gradient tab, wp showcase nested tabs, toggle on icon tab style, wordpress responsive tabs, elementor woocommerce tabs, advanced tabs using custom template, animated tab addon.
 
 
-16. [ **advanced toggle** ](https://wpmet.com/plugin/elementskit/advanced-toggle/) - One of the smartest pro features of ElementsKit.  This awesome widget allows you to switch between one section to another section with just one click. It’s so advanced that to see the other section, you don’t need to scroll anymore. With this eye-caching widget you can Choose Styles, Color, Set Alignment, Edit Tab Content, Control Tab and many more.
+4. [ **Timeline (Pro)** ](https://wpmet.com/plugin/elementskit/time-line/) - Create your timeline chart using Elementor timeline widget and showcase your timeline, roadmap horizontally and vertically. With our Elementor timeline widget, get advanced styles in timeline, content, background, border, positioning etc.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=4GYhT8kh2VQ=youtu.be)
+Timeline addon for Elementor page builder offers multiple styles including: Timeline with background color box, elementor vertical timeline with hover effects, timeline with one side content, elementor timeline with line icon, horizontal elementor timeline, vertical elementor timeline, wordpress multiple content source timeline, wp custom content timeline for elementor, post timeline for elementor.
 
-17. [ **Vertical mega menu** ](https://products.wpmet.com/megamenu/) - Display your Mega Menu Vertically to your site. There are many more styling options to provide a perfect look of each featured item. By our exclusive widget you can customize your Megamenu Content, Select Icon, Choose Icon Color, Choose Badge Text, Color, Position. You can also select the vertical menu position as Relative or Top and also set the Width.
-18. Hotspot (PRO): Display your image in a more informative way. This hotspot Elementor Widget will help you to point out a specific part of your image in an animated way and create a visual appearance that will attract the user's attention. Our Hotspot Elementor Widget comes with a bunch of styling features like color, indicator, content, hover, animation, loading effects, elementskit effect, and so on.
+5. [ **Advanced Chart (PRO)** ](https://wpmet.com/plugin/elementskit/chart/) - Show graphical representation of data to see the analytics side of your workflow. Add line chart, pie chart, bar chart, radar chart, doughnut chart, and others with tons of styling options including change of data, color, label, category, tooltip, legend, title, animation etc.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=5VxO1LP6TtY=youtu.be)
+Chart addon for Elementor page builder offers multiple styles including: Vertical bar charts for elementor, bar charts vertical label bottom, elementor horizontal bar charts, advanced chart for elementor page builder, wordpress bar charts horizontal label right, line charts bottom, Wordpress line charts bottom no label, elementor line charts top, wp line charts top label bottom, wp radar charts, doughnut charts widget, elementor pie charts addon. 
 
+6. [ **Data Table (PRO)** ](https://wpmet.com/plugin/elementskit/table/) - Table widget for Elementor will let you create data tables with advanced styling options and features. Show your data with a customizable table, body content, search, info and more.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=ECFC0QregXg=youtu.be)
+Table addon for Elementor page builder offers multiple styles including: Elementor comparison table, yoga schedule table for elementor, super easy sortable table style, row span or column span table for elementor, wp data table style, elementor responsive tables, wordpress table addon, google sheet data table.
 
+7. [ **Creative button (PRO)** ](https://wpmet.com/plugin/elementskit/creative-buttons/) - Create advanced buttons with creative button widget for Elementor. You can customize buttons with hover effects, content, button, border, shadow, icon, and more.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=FBlDECSZJJA=youtu.be)
+Creative button addon for Elementor page builder offers multiple styles including: Creative hover button for elementor, elementor mouse hover button, wp winona button style, left to right with hyphen button, center ripple effect style button, wordpress fade with icon on hover button, moema creative button style for elementor.
 
+8. [ **Motion text (PRO)** ](https://wpmet.com/plugin/elementskit/motion-text/) - Elementor motion text widget helps you to display your text with text motion animations, split text animation with styles, colors, typography, text shadows and more.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=r2its1DH5j4=youtu.be)
+Motion text addon for Elementor page builder offers multiple styles including: Elementor animated text widget, reveal in top style for elementor, reveal in bottom style for wordpress, reveal in left style, reveal in right style, elementor raindrop character based style, lightning character based style, wp jolt zoom character based style, magnify character based style, beat character based style, fade in creative text style.
 
+9. [ **Instagram feed (PRO)** ](https://wpmet.com/plugin/elementskit/instagram/) - Display your Instagram feed directly from your account in different ways using Instagram feed widget for Elementor. You can customize your feed style, color, content and more features using the instagram feed for Elementor.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=byGY4GVmh7Y=youtu.be)
+Instagram feed addon for Elementor page builder offers multiple styles including: Instagram photos only feed style, elementor list style instagram feed, photo list with hover instagram feed style, instagram posts with card layout, wp card layout with content inside,wordpress card layout content​ outer style, instagram posts overlay feed style, instagram carousel layout feed, instagram gallery masonry layout feed, instagram feed widget with profile link.
 
+10. [ **Facebook feed (PRO)** ](https://wpmet.com/plugin/elementskit/facebook-feed/) - Showcase updates from your facebook profile, groups, pages, photos and more in front of your website’s audience by using Facebook feed widget for Elementor. You can change every section with hover, animation, loading effects etc.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=zGqes9wXrAI=youtu.be)
+Facebook feed addon for Elementor page builder offers multiple styles including: Elementor masonry style facebook feed, grid style facebook page image post, wp post list style facebook photos, image list feed style for wordpress, customizable facebook feed in card layout, facebook feed in overlay layout.
 
+11. [ **Twitter feed (PRO)** ](https://wpmet.com/plugin/elementskit/twitter/) - Display images, profiles, tweets automatically on your websites with Twitter feed widget for Elementor. You can customize your styles, layout, cover photo, header, dashboard and more using Elementor Twitter feed addon.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=Kae4LwnKkbU=youtu.be)
+Twitter feed addon for Elementor page builder offers multiple styles including: Twitter feed style with cover photo, elementor twitter feed masonry style, twitter feed masonry style 4 columns, cover photo with feed style grid, wp list view twitter feed, wordpress custom twitter feed carousel, twitter widget with follow button.
 
+12. [ **Woocommerce Product List (PRO)** ](https://wpmet.com/plugin/elementskit/woo-product-list/) - Display your ecommerce product list using Elementor woocommerce product list widget. You can take control over listing options, order by, product limit, layout, title, rating, price, add to cart and more.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=VYNE-r6mWEo=youtu.be)
+Woocommerce product list addon for Elementor page builder offers multiple styles including: Woocommerce product list horizontal style, elementor product horizontal flipped style, content on the product for wordpress, wordpress add to cart on woo product list, woocommerce checkout on product list, e-commerce shop product list addon for elementor.
 
+13. [ **Woocommerce Product Carousel (PRO)** ](https://wpmet.com/plugin/elementskit/woo-product-carousel/) - Display ecommerce product sliders on your Elementor website using WooCommerce product carousel widget, comes up with lots of advanced features and customization options.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=Uk0sS_MHwYE=youtu.be)
+Woocommerce product carousel addon for Elementor page builder offers multiple styles including: Woocommerce product carousel widget for elementor, display woocommerce product slider, vertical woocommerce product carousel, wordpress specific products slider, related products slider for elementor, wp woocommerce category slider, elementor product carousel for woocommerce, woocommerce most viewed products, woocommerce products from attributes.
+14. [ **Woocommerce Category List (PRO)** ](https://wpmet.com/plugin/elementskit/woo-category-list/) - Our Woocommerce category list widget for Elementor offers an advanced and easy way to display Woo-Categories anywhere on the website. Using our Woocommerce category list addon for Elementor, you can display your woo category list in the grid, carousel, and tile style.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=4QzP4DVE1VQ=youtu.be)
+Woocommerce category list addon for Elementor page builder offers multiple styles including: Woo all category showing addon, elementor product category widget, wordpress stylish layouts for category list, wp woo category grid layout for elementor, advanced category list widget for elementor.
 
+15. [ **Woocommerce Mini Cart (PRO)** ](https://wpmet.com/plugin/elementskit/woo-mini-cart/) -  Add multiple items to the cart and checkout without leaving the product page you're on with woocommerce mini cart Elementor widget. We have designed our woocommerce mini cart Elementor addon with many customizable options in cart button, body, header, item etc. 
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=q4xlHQ1OaB8&feature=youtu.be)
+Our Woocommerce Mini Cart Elementor Widget offers lots of styles including: Elementor woocommerce mini cart with header, WordPress cart all in one for woocommerce mini cart with button, Woo mini cart with icon, wc cart qty with hover effect, wc sticky cart with red color style, Woocommerce mini basket with notices content for WordPress.
 
+16. [ **Advanced Toggle** ](https://wpmet.com/plugin/elementskit/advanced-toggle/) - Create amazing pricing tables, icon boxes, packages with Advanced Toggle widget for Elementor page builder that enable your WordPress site visitors to switch from one category to another. Get styling options in switch container, switch toggle and content area.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=XOwlb5u2GrQ&feature=youtu.be)
+Our Advanced Toggle Elementor Addons offers lots of styles including: Elementor addons advanced toggle with heading, Elementor addons advanced toggle with no heading, Advanced toggle style square for WordPress, Wp advanced toggle switch style, Elementor addons advanced toggle with no heading dark style.
 
+17. [ **Vertical mega menu** ](https://products.wpmet.com/megamenu/) - Display your mega menu vertically to your wordpress site with our vertical mega menu addon for Elementor page builder. By our Elementor widget you can customize your Mega Menu content, select icon, choose icon color, choose badge text, color, position etc.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=4FqJkg1pHCo&feature=youtu.be)
+Our Vertical mega menu Elementor addons offers lots of styles including: Elementor addons Vertical menu with light style, Vertical mega menu with dark style for WordPress, mega menu with light version toggle, Elementor widget dropdown menu with content, Elementor widget drag and drop menu with icon, Elementor addons mobile responsive vertical menu with badge text,  Elementor widget vertical mega menu with sidebar content, Elementor vertical menu with dashicons.
+18.  [ **Hotspot (PRO)** ](https://wpmet.com/plugin/elementskit/hotspot/) - This hotspot Elementor Widget will help you to point out a specific part of your image with tooltip and reveal an associated text after clicking. Our Hotspot Elementor addon comes with a bunch of styling features like color, indicator, content, hover, animation, loading effects etc.
+[ **Check out our video screencast** ](https://www.youtube.com/watch?v=XOwlb5u2GrQ&feature=youtu.be)
+Our Hotspot Widget for Elementor page builder offers lots of styles including: Hotspot Elementor widget default style with points, Hotspot Elementor addons logo with active style with maps, Wp hotspot Elementor widget content with click style, Hotspot Elementor addons hover style, Hotspot mixed line style product showcase for WordPress.
 
 
 == PRO Modules Features in premium version ==
@@ -226,9 +347,27 @@ We have developed Awesome exclusive modules which saved tons of time when you ar
 
 
 == Changelog ==
+
+Version: 2.0.9
+Fix:  Metform compatibility 
+
+Version: 2.0.9
+Fix: CSS hover issue in nav-menu
+Tweak: Polished inner php classes for maintainability.
+
+Version: 2.0.8
+Fix: Compatiblity with pro version
+
+Version: 2.0.7
+New: added controls for modal image shadow and overlay background height for Team Widget
+New: added active item when hover over it for Image Accordion Widget
+New: added horizontal and vertical styles for Image Accordion Widget
+Fix: minor gutter margin css fixed for Image Accordion Widget
+Fix: removed deprecated repeater control codes for Image Accordion Widget
+Fix: PHP warning invalid argument issue fixed when social list disabled for Team Widget
+
 Version: 2.0.6
-Fix: Warning message when social list disabled for Team Widget. Thanks to @vidilo
-Fix: Missing class in blog widget.  Thanks to @vidilo
+Fix: PHP warning
 
 Version: 2.0.5
 New: New controls added in Dribbble, Behance and Pinterest Feed

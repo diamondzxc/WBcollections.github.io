@@ -204,8 +204,7 @@ class Skin_Coral extends Elementor_Skin_Base {
               <div class="bdt-width-1-1 bdt-width-2-3@s">
                   <?php if ('yes' == $settings['show_title']) : ?>
                 <div class="bdt-main-title">
-                  <<?php echo esc_html($settings['title_html_tag']); ?> class="bdt-title-tag" bdt-slideshow-parallax="y:
-                  50,0,-50; opacity: 1,1,0">
+                  <<?php echo esc_html($settings['title_html_tag']); ?> class="bdt-title-tag" bdt-slideshow-parallax="y: 50,0,-50; opacity: 1,1,0">
 
                   <a href="<?php echo esc_url(get_permalink($post->ID)); ?>">
                       <?php echo prime_slider_first_word(get_the_title()); ?>

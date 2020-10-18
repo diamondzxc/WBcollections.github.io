@@ -605,7 +605,7 @@ class PrimeSlider_Admin_Settings
                 });
 
                 jQuery("#prime_slider_active_modules_page a.ps-active-all-widget").click(function () {
-                    jQuery('#prime_slider_active_modules_page .checkbox').attr('checked', 'checked');
+                    jQuery('#prime_slider_active_modules_page .checkbox').attr('checked', 'checked').prop("checked", true);
                     jQuery(this).addClass('bdt-active');
                     jQuery("a.ps-deactive-all-widget").removeClass('bdt-active');
                 });
@@ -617,7 +617,7 @@ class PrimeSlider_Admin_Settings
                 });
 
                 jQuery("#prime_slider_third_party_widget_page a.ps-active-all-widget").click(function () {
-                    jQuery('#prime_slider_third_party_widget_page .checkbox').attr('checked', 'checked');
+                    jQuery('#prime_slider_third_party_widget_page .checkbox').attr('checked', 'checked').prop("checked", true);
                     jQuery(this).addClass('bdt-active');
                     jQuery("a.ps-deactive-all-widget").removeClass('bdt-active');
                 });

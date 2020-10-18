@@ -1,4 +1,4 @@
-<?php 
+<?php
 defined( 'ABSPATH' ) || exit;
 
 /**
@@ -6,7 +6,7 @@ defined( 'ABSPATH' ) || exit;
  * Description: The most advanced addons for Elementor with tons of widgets, Header builder, Footer builder, Mega menu builder, layout pack and powerful custom controls.
  * Plugin URI: https://products.wpmet.com/elementskit
  * Author: Wpmet
- * Version: 2.0.6
+ * Version: 2.0.9.1
  * Author URI: https://wpmet.com/
  *
  * Text Domain: elementskit-lite
@@ -16,7 +16,7 @@ defined( 'ABSPATH' ) || exit;
  * "layout installer", "quick form builder" etc under the hood.
  * It has a tons of widgets to create any sites with an ease. It has some most unique
  * and powerful custom controls for elementor, such as "image picker", "ajax select", "widget area".
- * 
+ *
  */
 
 final class ElementsKit_Lite{
@@ -27,7 +27,7 @@ final class ElementsKit_Lite{
 	 * @var string The plugin version.
 	 */
 	static function version(){
-		return '2.0.6';
+		return '2.0.9.1';
 	}
 
 	/**
@@ -245,6 +245,8 @@ final class ElementsKit_Lite{
 		require_once self::plugin_dir() . 'helpers/utils.php';
 
 
+
+
 		// Check if Elementor installed and activated.
 		if ( ! did_action( 'elementor/loaded' ) ) {
 			add_action( 'admin_notices', array( $this, 'missing_elementor' ) );
@@ -262,7 +264,7 @@ final class ElementsKit_Lite{
 		add_action('elementor/init', [$this, 'elementor_widget_category']);
 
 		add_action( 'elementor/init', function(){
-			if(class_exists('ElementsKit')){
+			if(class_exists('ElementsKit') && !class_exists('ElementsKit_Comp')){
 				return;
 			}
 
@@ -275,6 +277,8 @@ final class ElementsKit_Lite{
 		});
 
 	}
+
+
 
 	/**
 	 * Admin notice

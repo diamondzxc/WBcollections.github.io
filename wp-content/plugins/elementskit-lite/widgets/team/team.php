@@ -541,6 +541,36 @@ class ElementsKit_Widget_Team extends Widget_Base {
                 'selector'  => '{{WRAPPER}} .profile-card:hover, {{WRAPPER}} .profile-image-card:hover',
             ]
         );
+        
+            $this->add_responsive_control(
+                'overlay_height',
+                [
+                    'label'         => esc_html__('Overlay Height', 'elementskit-lite'),
+                    'type'          => Controls_Manager::SLIDER,
+                    'size_units'    => ['%', 'px'],
+                    'range'         => [
+                        '%'     => [
+                            'min'   => 0,
+                            'max'   => 100
+                        ],
+                        'px'    => [
+                            'min'   => 0,
+                            'max'   => 500,
+                            'step'  => 5
+                        ]
+                    ],
+                    'default'       => [
+                        'unit'  => '%',
+                    ],
+                    'selectors'     => [
+                        '{{WRAPPER}} .ekit-team-style-long_height_hover:after'  => 'height: {{SIZE}}{{UNIT}};',
+                    ],
+                    'condition' => [
+                        'ekit_team_style'   => 'long_height_hover',
+                    ],
+                ]
+            );
+
 		$this->end_controls_tab();
 		$this->end_controls_tabs();
 
@@ -789,6 +819,17 @@ class ElementsKit_Widget_Team extends Widget_Base {
         );
 
         $this->add_group_control(
+            Group_Control_Box_Shadow::get_type(), [
+                'name'      => 'modal_img_shadow',
+                'label'     => esc_html__('Box Shadow (Popup)', 'elementskit-lite'),
+                'selector'  => '{{WRAPPER}} .ekit-team-modal-img > img',
+                'condition' => [
+                    'ekit_team_chose_popup' => 'yes',
+                ],
+            ]
+        );
+
+        $this->add_group_control(
             Group_Control_Border::get_type(),
             [
                 'name' => 'ekit_team_image_border',
@@ -839,6 +880,45 @@ class ElementsKit_Widget_Team extends Widget_Base {
                 'label' => esc_html__( 'Background', 'elementskit-lite' ),
                 'types' => [ 'classic', 'gradient' ],
                 'selector' => '{{WRAPPER}} .profile-card .profile-header',
+            ]
+        );
+
+        $this->add_control(
+            'img_blend_mode',
+            [
+                'label'     => esc_html__('Blend Mode', 'elementskit-lite'),
+                'type'      => Controls_Manager::SELECT,
+                'default'   => 'normal', // 'Select' controls need to have a default value, otherwise shows empty box
+                'options'   => [
+                    'normal'        => esc_html__('Normal', 'elementskit-lite'),
+                    'multiply'      => esc_html__('Multiply', 'elementskit-lite'),
+                    'screen'        => esc_html__('Screen', 'elementskit-lite'),
+                    'overlay'       => esc_html__('Overlay', 'elementskit-lite'),
+                    'darken'        => esc_html__('Darken', 'elementskit-lite'),
+                    'lighten'       => esc_html__('Lighten', 'elementskit-lite'),
+                    'color-dodge'   => esc_html__('Color Dodge', 'elementskit-lite'),
+                    'saturation'    => esc_html__('Saturation', 'elementskit-lite'),
+                    'color'         => esc_html__('Color', 'elementskit-lite'),
+                    'luminosity'    => esc_html__('Luminosity', 'elementskit-lite'),
+                ],
+                'selectors' => [
+                    '{{WRAPPER}} .ekit-team-img > img' => 'mix-blend-mode: {{VALUE}};',
+                ],
+				'conditions' => [ // 'Blend Mode' control will show only if the Image Background 'Color' or, 'Image' is set
+					'relation' => 'or',
+					'terms' => [
+						[
+							'name' => 'ekit_team_image_background_image[url]',
+							'operator' => '!==',
+							'value' => '',
+						],
+						[
+							'name' => 'ekit_team_image_background_color',
+							'operator' => '!==',
+							'value' => '',
+						],
+					],
+				],
             ]
         );
 
@@ -2140,7 +2220,7 @@ class ElementsKit_Widget_Team extends Widget_Base {
 
 	protected function render_raw( ) {
 		$settings = $this->get_settings_for_display();
-		extract($settings);
+        extract($settings);
 
 		// Image sectionn
 		$image_html = '';
@@ -2155,7 +2235,7 @@ class ElementsKit_Widget_Team extends Widget_Base {
 		$this->add_render_attribute(
 			'profile_card',
 			[
-				'class' => 'profile-card ' . $ekit_team_content_text_align,
+				'class' => 'profile-card ' . $ekit_team_content_text_align . ' ekit-team-style-'.$ekit_team_style,
 			]
 		);
 
@@ -2182,7 +2262,7 @@ class ElementsKit_Widget_Team extends Widget_Base {
 				<a href="#ekit_team_modal_<?php echo esc_attr($this->get_id()); ?>" class="ekit-team-popup">
 			<?php endif; ?>
 			
-				<div class="profile-header <?php echo esc_attr($ekit_team_style == 'default' ? 'ekit-img-overlay' : ''); ?>" <?php if ( (isset($settings['ekit_team_chose_popup']) ? $ekit_team_chose_popup : 'no')  == 'yes') :?> data-toggle="modal" data-target="ekit_team_modal_#<?php echo esc_attr($this->get_id()); ?>" <?php endif; ?>>
+				<div class="profile-header ekit-team-img <?php echo esc_attr($ekit_team_style == 'default' ? 'ekit-img-overlay ekit-team-img-block' : ''); ?>" <?php if ( (isset($settings['ekit_team_chose_popup']) ? $ekit_team_chose_popup : 'no')  == 'yes') :?> data-toggle="modal" data-target="ekit_team_modal_#<?php echo esc_attr($this->get_id()); ?>" <?php endif; ?>>
 					<?php echo \ElementsKit_Lite\Utils::kses($image_html); ?>
 				</div><!-- .profile-header END -->
 			<?php if ($settings['ekit_team_chose_popup'] == 'yes') : ?>
@@ -2240,9 +2320,9 @@ class ElementsKit_Widget_Team extends Widget_Base {
 			<?php if ( in_array($ekit_team_style, array('overlay', 'overlay_details', 'long_height_hover', 'overlay_circle', 'overlay_circle_hover')) ): ?>
 				<?php if($ekit_team_style == 'overlay_details'): ?> <div class="image-card-v2"> <?php endif; ?>
 				<?php if($ekit_team_style == 'long_height_hover'): ?> <div class="<?php echo esc_attr($settings['ekit_team_remove_gutters'] == 'yes' ? '' : 'small-gutters'); ?> image-card-v3"> <?php endif; ?>
-				<?php if($ekit_team_style == 'overlay_circle'): ?> <div class="style-circle"> <?php endif; ?>
+				<?php if($ekit_team_style == 'overlay_circle'): ?> <div class="style-circle ekit-team-img-fit"> <?php endif; ?>
 				<?php if($ekit_team_style == 'overlay_circle_hover'): ?> <div class="image-card-v2 style-circle"> <?php endif; ?>
-					<div class="profile-image-card <?php if(isset($ekit_team_content_text_align)) { echo esc_attr($ekit_team_content_text_align);} ?>">
+					<div class="profile-image-card ekit-team-img ekit-team-style-<?php echo $ekit_team_style; ?> <?php if(isset($ekit_team_content_text_align)) { echo esc_attr($ekit_team_content_text_align);} ?>">
 
 						<?php if($ekit_team_style == 'long_height_hover'){ ?>
 							<?php echo \ElementsKit_Lite\Utils::kses($image_html); ?>
@@ -2287,7 +2367,7 @@ class ElementsKit_Widget_Team extends Widget_Base {
 				
 				<div class="profile-square-v square-v4">
 					<div class="profile-card <?php if(isset($ekit_team_content_text_align)) { echo esc_attr($ekit_team_content_text_align);} ?>">
-						<div class="profile-header" <?php if ($settings['ekit_team_chose_popup'] == 'yes') :?> data-toggle="modal" data-target="#ekit_team_modal_<?php echo esc_attr($this->get_id()); ?>" <?php endif; ?>>
+						<div class="profile-header ekit-team-img" <?php if ($settings['ekit_team_chose_popup'] == 'yes') :?> data-toggle="modal" data-target="#ekit_team_modal_<?php echo esc_attr($this->get_id()); ?>" <?php endif; ?>>
 							<?php echo \ElementsKit_Lite\Utils::kses($image_html); ?>
 						</div><!-- .profile-header END -->
 						<div class="profile-body">

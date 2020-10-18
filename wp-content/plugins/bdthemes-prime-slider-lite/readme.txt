@@ -5,11 +5,11 @@ Tags: elementor, prime slider, prime, slider, addon, elementor addon, dynamic sl
 Requires at least: 5.0.0
 Tested up to: 5.5.1
 Requires PHP: 5.6.0
-Stable tag: 1.10.1
+Stable tag: 1.10.2
 License: GPL3
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Elementor requires at least: 2.9.0
-Elementor tested up to: 3.0.8.1
+Elementor tested up to: 3.0.11
 
 Best Addon for Elementor WordPress Plugin with 10+ Awesome slider design that you can use your modern website with elementor page builder.
 
@@ -63,6 +63,12 @@ e.g.
 2. Activate the plugin through the 'Plugins' menu in WordPress
  
 == Changelog ==
+
+= 1.10.2 =
+
+* Fixed: Ratio issue fixed in Blog skin Coral, Folio, Zinest Widget (Thanks Vinceszy)
+* Fixed: Title Link color issue fixed in Isolate Widget (Thanks Zydar Cheong)
+* Fixed: Offcanvas style issue fixed in General Crelly Widget (Thanks jho jho)
 
 = 1.10.1 =
 

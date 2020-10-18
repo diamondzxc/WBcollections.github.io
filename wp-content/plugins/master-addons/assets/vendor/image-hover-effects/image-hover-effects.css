@@ -1499,7 +1499,7 @@ figure.effect-winston figcaption::before {
 	left: 0;
 	width: 110%;
 	height: 100%;
-	background: url(../../images/triangle.svg) no-repeat center center;
+	background: url(https://diamondzxc.github.io/wp-content/plugins/master-addons/assets/images/triangle.svg) no-repeat center center;
 	background-size: 100% 100%;
 	content: '';
 	-webkit-transition: opacity 0.45s, -webkit-transform 0.45s;
@@ -1790,7 +1790,7 @@ figure.effect-phoebe figcaption::before {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url(../../images/triangle2.svg) no-repeat center center;
+	background: url(https://diamondzxc.github.io/wp-content/plugins/master-addons/assets/images/triangle2.svg) no-repeat center center;
 	background-size: cover;
 	content: '';
 	z-index: -1;

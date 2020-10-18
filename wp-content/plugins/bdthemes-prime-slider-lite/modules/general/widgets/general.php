@@ -691,7 +691,7 @@ class General extends Widget_Base {
 					],
 				],
 				'selectors' => [
-					'{{WRAPPER}} .bdt-offcanvas-button' => 'transform: translateX({{SIZE}}{{UNIT}});',
+					'{{WRAPPER}} .bdt-prime-slider .bdt-offcanvas-button' => 'transform: translateX({{SIZE}}{{UNIT}});',
 				],
 			]
 		);
@@ -741,8 +741,8 @@ class General extends Widget_Base {
 					'button_icon!' => '',
 				],
 				'selectors' => [
-					'{{WRAPPER}} .bdt-offcanvas-button .bdt-offcanvas-button-icon.elementor-align-icon-right' => 'margin-left: {{SIZE}}{{UNIT}};',
-					'{{WRAPPER}} .bdt-offcanvas-button .bdt-offcanvas-button-icon.elementor-align-icon-left'  => 'margin-right: {{SIZE}}{{UNIT}};',
+					'{{WRAPPER}} .bdt-prime-slider .bdt-offcanvas-button .bdt-offcanvas-button-icon.elementor-align-icon-right' => 'margin-left: {{SIZE}}{{UNIT}};',
+					'{{WRAPPER}} .bdt-prime-slider .bdt-offcanvas-button .bdt-offcanvas-button-icon.elementor-align-icon-left'  => 'margin-right: {{SIZE}}{{UNIT}};',
 				],
 			]
 		);
@@ -2022,7 +2022,7 @@ class General extends Widget_Base {
 				'label'     => esc_html__('Background', 'bdthemes-prime-slider'),
 				'type'      => Controls_Manager::COLOR,
 				'selectors' => [
-					'{{WRAPPER}} .bdt-offcanvas-button' => 'background-color: {{VALUE}};',
+					'{{WRAPPER}} .bdt-prime-slider .bdt-offcanvas-button' => 'background-color: {{VALUE}};',
 				],
 			]
 		);
@@ -2048,7 +2048,7 @@ class General extends Widget_Base {
 				'label'       => esc_html__('Border', 'bdthemes-prime-slider'),
 				'placeholder' => '1px',
 				'default'     => '1px',
-				'selector'    => '{{WRAPPER}} .bdt-offcanvas-button',
+				'selector'    => '{{WRAPPER}} .bdt-prime-slider .bdt-offcanvas-button',
 			]
 		);
 
@@ -2059,7 +2059,7 @@ class General extends Widget_Base {
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => ['px', '%'],
 				'selectors'  => [
-					'{{WRAPPER}} .bdt-offcanvas-button' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+					'{{WRAPPER}} .bdt-prime-slider .bdt-offcanvas-button' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
 				],
 			]
 		);
@@ -2071,7 +2071,7 @@ class General extends Widget_Base {
 				'type'       => Controls_Manager::DIMENSIONS,
 				'size_units' => ['px', 'em', '%'],
 				'selectors'  => [
-					'{{WRAPPER}} .bdt-offcanvas-button' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+					'{{WRAPPER}} .bdt-prime-slider .bdt-offcanvas-button' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
 				],
 			]
 		);
@@ -2080,7 +2080,7 @@ class General extends Widget_Base {
 			Group_Control_Box_Shadow::get_type(),
 			[
 				'name'      => 'offcanvas_button_shadow',
-				'selector'  => '{{WRAPPER}} .bdt-offcanvas-button',
+				'selector'  => '{{WRAPPER}} .bdt-prime-slider .bdt-offcanvas-button',
 			]
 		);
 
@@ -2089,7 +2089,7 @@ class General extends Widget_Base {
 			[
 				'name'      => 'offcanvas_button_typography',
 				'label'     => esc_html__('Typography', 'bdthemes-prime-slider'),
-				'selector'  => '{{WRAPPER}} .bdt-offcanvas-button',
+				'selector'  => '{{WRAPPER}} .bdt-prime-slider .bdt-offcanvas-button',
 			]
 		);
 
@@ -2119,7 +2119,7 @@ class General extends Widget_Base {
 				'label'     => esc_html__('Background', 'bdthemes-prime-slider'),
 				'type'      => Controls_Manager::COLOR,
 				'selectors' => [
-					'{{WRAPPER}} .bdt-offcanvas-button:hover' => 'background-color: {{VALUE}};',
+					'{{WRAPPER}} .bdt-prime-slider .bdt-offcanvas-button:hover' => 'background-color: {{VALUE}};',
 				],
 			]
 		);
@@ -2133,7 +2133,7 @@ class General extends Widget_Base {
 					'offcanvas_button_border_border!' => '',
 				],
 				'selectors' => [
-					'{{WRAPPER}} .bdt-offcanvas-button:hover' => 'border-color: {{VALUE}};',
+					'{{WRAPPER}} .bdt-prime-slider .bdt-offcanvas-button:hover' => 'border-color: {{VALUE}};',
 				],
 			]
 		);
