@@ -10,9 +10,9 @@
 <channel>
 	<title>Forever Young</title>
 	<atom:link href="https://diamondzxc.github.io/feed/" rel="self" type="application/rss+xml" />
-	<link>https://diamondzxc.github.io/</link>
+	<link>https://diamondzxc.github.io</link>
 	<description>Just another WordPress site</description>
-	<lastBuildDate>Sun, 18 Oct 2020 14:00:09 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 20 Oct 2020 07:30:11 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -23,7 +23,7 @@
 <image>
 	<url>https://diamondzxc.github.io/wp-content/uploads/2020/09/cropped-logo_transparent-e1600875683916-32x32.png</url>
 	<title>Forever Young</title>
-	<link>https://diamondzxc.github.io/</link>
+	<link>https://diamondzxc.github.io</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
