@@ -4313,7 +4313,7 @@
 .ma-el-caldera-form .caldera-grid label,
 .caldera-grid span,
 .ma-el-ninja-form.ma-cf  label {
-    display:block;
+    /*display:block;*/
     color: #78909c;
     font-size: 13px;
     font-weight: 400;
